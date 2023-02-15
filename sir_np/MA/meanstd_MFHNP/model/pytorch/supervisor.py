@@ -12,13 +12,12 @@ from model.pytorch.loss import nll_metric
 from model.pytorch.loss import mae_metric
 from model.pytorch.loss import nonormalized_mae_metric
 from model.pytorch.loss import kld_gaussian_loss
-from torch.utils.tensorboard import SummaryWriter
 
 import csv
 
 
-device = torch.device("cuda:2")
-# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda:2")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class Supervisor:
     def __init__(self, random_seed, **kwargs):

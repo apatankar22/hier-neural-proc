@@ -3,7 +3,8 @@ base_dir: data/model
 log_level: INFO
 data:
   batch_size: 128
-  dataset_dir: ../../mfnp_data
+  #dataset_dir: ../../mfnp_data
+  dataset_dir: ../../data
   test_batch_size: 780
   val_batch_size: 780
 
@@ -24,7 +25,7 @@ model:
 train:
   base_lr: 0.001
   epoch: 0
-  epochs: 2000 #250
+  epochs: 250 #2000
   epsilon: 1.0e-3
   global_step: 0
   lr_decay_ratio: 0.1 #0.9

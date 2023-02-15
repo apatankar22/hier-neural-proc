@@ -3,7 +3,8 @@ base_dir: data/model
 log_level: INFO
 data:
   batch_size: 128
-  dataset_dir: ../../mfnp_data
+  #dataset_dir: ../../mfnp_data
+  dataset_dir: ../../data
   test_batch_size: 780
   val_batch_size: 780
 

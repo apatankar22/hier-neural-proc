@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn.dense import DenseGCNConv
+#from torch_geometric.nn.dense import DenseGCNConv
 
 device = torch.device("cuda:2")
 
@@ -214,7 +214,8 @@ class Model(nn.Module):
 
     def sample_z(self, mean, var, n=1):
         """Reparameterisation trick."""
-        eps = torch.autograd.Variable(var.data.new(n,var.size(0),var.size(1)).normal_()).to(device)
+        #eps = torch.autograd.Variable(var.data.new(n,var.size(0),var.size(1)).normal_()).to(device)
+        eps = torch.autograd.Variable(var.data.new(n,var.size(0),var.size(1)).normal_())
 
         std = torch.sqrt(var)
         return torch.unsqueeze(mean, dim=0) + torch.unsqueeze(std, dim=0) * eps
