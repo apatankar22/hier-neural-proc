@@ -1,0 +1,705 @@
+2023-02-14 20:41:07,452 - model.pytorch.supervisor - INFO - Log directory: data/model/model_lr_0.001_bs_128_0214204107_63/
+2023-02-14 20:41:10,739 - model.pytorch.supervisor - INFO - Model created
+2023-02-14 20:41:10,765 - model.pytorch.supervisor - INFO - Start training ...
+2023-02-14 20:41:10,765 - model.pytorch.supervisor - INFO - num_batches:7
+2023-02-14 20:41:13,905 - model.pytorch.supervisor - INFO - Total trainable parameters 38760
+2023-02-14 20:41:15,069 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:15,070 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:15,978 - model.pytorch.supervisor - INFO - Epoch [0/250] (7) train_loss: 12.4690, l2_nll: 12.4690, l2_kld: 0.0000, val_mae: 274.9167, lr: 0.001000, 2.2s
+2023-02-14 20:41:17,011 - model.pytorch.supervisor - INFO - Epoch [0/250] (7) test_nll: 10.9312, test_mae: 3.4877, test_non_mae: 341.9453, lr: 0.001000, 2.2s
+2023-02-14 20:41:17,012 - model.pytorch.supervisor - INFO - Val loss decrease from inf to 274.9167.
+2023-02-14 20:41:21,418 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:21,419 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:22,163 - model.pytorch.supervisor - INFO - Epoch [1/250] (14) train_loss: 11.9558, l2_nll: 11.9558, l2_kld: 0.0000, val_mae: 274.8760, lr: 0.001000, 1.9s
+2023-02-14 20:41:23,253 - model.pytorch.supervisor - INFO - Epoch [1/250] (14) test_nll: 10.3367, test_mae: 3.4508, test_non_mae: 341.9050, lr: 0.001000, 1.9s
+2023-02-14 20:41:23,254 - model.pytorch.supervisor - INFO - Val loss decrease from 274.9167 to 274.8760.
+2023-02-14 20:41:27,488 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:27,488 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:28,041 - model.pytorch.supervisor - INFO - Epoch [2/250] (21) train_loss: 11.1202, l2_nll: 11.1202, l2_kld: 0.0000, val_mae: 274.7897, lr: 0.001000, 1.7s
+2023-02-14 20:41:29,001 - model.pytorch.supervisor - INFO - Epoch [2/250] (21) test_nll: 9.2684, test_mae: 3.3786, test_non_mae: 341.8110, lr: 0.001000, 1.7s
+2023-02-14 20:41:29,001 - model.pytorch.supervisor - INFO - Val loss decrease from 274.8760 to 274.7897.
+2023-02-14 20:41:33,287 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:33,287 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:33,875 - model.pytorch.supervisor - INFO - Epoch [3/250] (28) train_loss: 9.7489, l2_nll: 9.7489, l2_kld: 0.0000, val_mae: 274.4489, lr: 0.001000, 1.7s
+2023-02-14 20:41:34,831 - model.pytorch.supervisor - INFO - Epoch [3/250] (28) test_nll: 7.2591, test_mae: 3.1899, test_non_mae: 341.3641, lr: 0.001000, 1.7s
+2023-02-14 20:41:34,831 - model.pytorch.supervisor - INFO - Val loss decrease from 274.7897 to 274.4489.
+2023-02-14 20:41:38,948 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:38,950 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:39,453 - model.pytorch.supervisor - INFO - Epoch [4/250] (35) train_loss: 7.1503, l2_nll: 7.1503, l2_kld: 0.0000, val_mae: 441.8693, lr: 0.001000, 1.4s
+2023-02-14 20:41:40,371 - model.pytorch.supervisor - INFO - Epoch [4/250] (35) test_nll: 4.4570, test_mae: 2.6730, test_non_mae: 16888.2852, lr: 0.001000, 1.4s
+2023-02-14 20:41:44,506 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:44,506 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:45,016 - model.pytorch.supervisor - INFO - Epoch [5/250] (42) train_loss: 3.6773, l2_nll: 3.6773, l2_kld: 0.0000, val_mae: 16784384000.0000, lr: 0.001000, 1.3s
+2023-02-14 20:41:45,963 - model.pytorch.supervisor - INFO - Epoch [5/250] (42) test_nll: 10.3396, test_mae: 1.8287, test_non_mae: 1782472175857434624.0000, lr: 0.001000, 1.3s
+2023-02-14 20:41:49,975 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:49,976 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:50,566 - model.pytorch.supervisor - INFO - Epoch [6/250] (49) train_loss: 2.2179, l2_nll: 2.2171, l2_kld: 0.0008, val_mae: 1214990778368.0000, lr: 0.001000, 1.5s
+2023-02-14 20:41:51,517 - model.pytorch.supervisor - INFO - Epoch [6/250] (49) test_nll: 2.6972, test_mae: 1.9315, test_non_mae: 17503254588474221658112.0000, lr: 0.001000, 1.5s
+2023-02-14 20:41:55,375 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:41:55,376 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:41:55,922 - model.pytorch.supervisor - INFO - Epoch [7/250] (56) train_loss: 1.9843, l2_nll: 1.9842, l2_kld: 0.0001, val_mae: 8022.4399, lr: 0.001000, 1.4s
+2023-02-14 20:41:56,859 - model.pytorch.supervisor - INFO - Epoch [7/250] (56) test_nll: 20.0119, test_mae: 1.2133, test_non_mae: 1131783424.0000, lr: 0.001000, 1.4s
+2023-02-14 20:42:00,955 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:00,956 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:01,584 - model.pytorch.supervisor - INFO - Epoch [8/250] (63) train_loss: 1.7357, l2_nll: 1.7357, l2_kld: 0.0000, val_mae: 377552.6250, lr: 0.001000, 1.6s
+2023-02-14 20:42:02,572 - model.pytorch.supervisor - INFO - Epoch [8/250] (63) test_nll: 1.8236, test_mae: 0.9839, test_non_mae: 445013262336.0000, lr: 0.001000, 1.6s
+2023-02-14 20:42:07,310 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:07,310 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:07,970 - model.pytorch.supervisor - INFO - Epoch [9/250] (70) train_loss: 1.6357, l2_nll: 1.6357, l2_kld: 0.0000, val_mae: 662154560.0000, lr: 0.001000, 2.0s
+2023-02-14 20:42:08,920 - model.pytorch.supervisor - INFO - Epoch [9/250] (70) test_nll: 1.7963, test_mae: 1.1032, test_non_mae: 37242593431519232.0000, lr: 0.001000, 2.0s
+2023-02-14 20:42:13,359 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:13,360 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:13,976 - model.pytorch.supervisor - INFO - Epoch [10/250] (77) train_loss: 1.5759, l2_nll: 1.5759, l2_kld: 0.0000, val_mae: 4733998592.0000, lr: 0.001000, 1.7s
+2023-02-14 20:42:14,896 - model.pytorch.supervisor - INFO - Epoch [10/250] (77) test_nll: 2.3880, test_mae: 1.1306, test_non_mae: 589629465630343168.0000, lr: 0.001000, 1.7s
+2023-02-14 20:42:19,361 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:19,361 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:19,947 - model.pytorch.supervisor - INFO - Epoch [11/250] (84) train_loss: 1.5167, l2_nll: 1.5167, l2_kld: 0.0000, val_mae: 126355120.0000, lr: 0.001000, 1.5s
+2023-02-14 20:42:20,928 - model.pytorch.supervisor - INFO - Epoch [11/250] (84) test_nll: 13.3440, test_mae: 0.9840, test_non_mae: 2652601598345216.0000, lr: 0.001000, 1.5s
+2023-02-14 20:42:25,049 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:25,049 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:25,630 - model.pytorch.supervisor - INFO - Epoch [12/250] (91) train_loss: 1.4428, l2_nll: 1.4428, l2_kld: 0.0000, val_mae: 1226335.0000, lr: 0.001000, 1.4s
+2023-02-14 20:42:26,583 - model.pytorch.supervisor - INFO - Epoch [12/250] (91) test_nll: 47.4936, test_mae: 0.8373, test_non_mae: 1338908082176.0000, lr: 0.001000, 1.4s
+2023-02-14 20:42:30,479 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:30,480 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:31,062 - model.pytorch.supervisor - INFO - Epoch [13/250] (98) train_loss: 1.3719, l2_nll: 1.3719, l2_kld: 0.0000, val_mae: 158762.6094, lr: 0.001000, 1.5s
+2023-02-14 20:42:31,972 - model.pytorch.supervisor - INFO - Epoch [13/250] (98) test_nll: 524.3881, test_mae: 0.7862, test_non_mae: 51375960064.0000, lr: 0.001000, 1.5s
+2023-02-14 20:42:36,303 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:36,304 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:36,940 - model.pytorch.supervisor - INFO - Epoch [14/250] (105) train_loss: 1.2930, l2_nll: 1.2930, l2_kld: 0.0000, val_mae: 118658.8125, lr: 0.001000, 1.6s
+2023-02-14 20:42:37,882 - model.pytorch.supervisor - INFO - Epoch [14/250] (105) test_nll: 11069.6396, test_mae: 0.7589, test_non_mae: 46490849280.0000, lr: 0.001000, 1.6s
+2023-02-14 20:42:42,245 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:42,246 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:42,861 - model.pytorch.supervisor - INFO - Epoch [15/250] (112) train_loss: 1.2098, l2_nll: 1.2098, l2_kld: 0.0000, val_mae: 34095.4688, lr: 0.001000, 1.5s
+2023-02-14 20:42:43,736 - model.pytorch.supervisor - INFO - Epoch [15/250] (112) test_nll: 32255.6895, test_mae: 0.7172, test_non_mae: 7769777152.0000, lr: 0.001000, 1.5s
+2023-02-14 20:42:47,826 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:47,827 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:48,375 - model.pytorch.supervisor - INFO - Epoch [16/250] (119) train_loss: 1.1237, l2_nll: 1.1237, l2_kld: 0.0000, val_mae: 11279.0771, lr: 0.001000, 1.4s
+2023-02-14 20:42:49,287 - model.pytorch.supervisor - INFO - Epoch [16/250] (119) test_nll: 28110.7129, test_mae: 0.6854, test_non_mae: 1123527680.0000, lr: 0.001000, 1.4s
+2023-02-14 20:42:53,291 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:53,292 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:53,850 - model.pytorch.supervisor - INFO - Epoch [17/250] (126) train_loss: 1.0374, l2_nll: 1.0374, l2_kld: 0.0000, val_mae: 11458.5449, lr: 0.001000, 1.4s
+2023-02-14 20:42:54,742 - model.pytorch.supervisor - INFO - Epoch [17/250] (126) test_nll: 39351.6172, test_mae: 0.6754, test_non_mae: 465967648.0000, lr: 0.001000, 1.4s
+2023-02-14 20:42:58,799 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:42:58,800 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:42:59,338 - model.pytorch.supervisor - INFO - Epoch [18/250] (133) train_loss: 0.9506, l2_nll: 0.9506, l2_kld: 0.0000, val_mae: 14903.3447, lr: 0.001000, 1.4s
+2023-02-14 20:43:00,261 - model.pytorch.supervisor - INFO - Epoch [18/250] (133) test_nll: 62227.3828, test_mae: 0.6692, test_non_mae: 277114432.0000, lr: 0.001000, 1.4s
+2023-02-14 20:43:04,528 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:04,529 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:05,094 - model.pytorch.supervisor - INFO - Epoch [19/250] (140) train_loss: 0.8748, l2_nll: 0.8748, l2_kld: 0.0000, val_mae: 18332.5254, lr: 0.001000, 1.5s
+2023-02-14 20:43:06,079 - model.pytorch.supervisor - INFO - Epoch [19/250] (140) test_nll: 64651.8008, test_mae: 0.6670, test_non_mae: 88708536.0000, lr: 0.001000, 1.5s
+2023-02-14 20:43:09,848 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:09,850 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:10,461 - model.pytorch.supervisor - INFO - Epoch [20/250] (147) train_loss: 0.8150, l2_nll: 0.8150, l2_kld: 0.0000, val_mae: 31775.5762, lr: 0.001000, 1.4s
+2023-02-14 20:43:11,430 - model.pytorch.supervisor - INFO - Epoch [20/250] (147) test_nll: 128166.3594, test_mae: 0.6632, test_non_mae: 72958024.0000, lr: 0.001000, 1.4s
+2023-02-14 20:43:15,526 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:15,527 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:16,256 - model.pytorch.supervisor - INFO - Epoch [21/250] (154) train_loss: 0.7644, l2_nll: 0.7644, l2_kld: 0.0000, val_mae: 27493.2520, lr: 0.001000, 1.8s
+2023-02-14 20:43:17,241 - model.pytorch.supervisor - INFO - Epoch [21/250] (154) test_nll: 159111.8281, test_mae: 0.6506, test_non_mae: 39860288.0000, lr: 0.001000, 1.8s
+2023-02-14 20:43:21,973 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:21,974 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:22,670 - model.pytorch.supervisor - INFO - Epoch [22/250] (161) train_loss: 0.7148, l2_nll: 0.7147, l2_kld: 0.0000, val_mae: 31036.8184, lr: 0.001000, 1.9s
+2023-02-14 20:43:23,691 - model.pytorch.supervisor - INFO - Epoch [22/250] (161) test_nll: 345027.2188, test_mae: 0.6639, test_non_mae: 42841116.0000, lr: 0.001000, 1.9s
+2023-02-14 20:43:28,185 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:28,185 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:28,748 - model.pytorch.supervisor - INFO - Epoch [23/250] (168) train_loss: 0.6665, l2_nll: 0.6665, l2_kld: 0.0000, val_mae: 30393.9180, lr: 0.001000, 1.5s
+2023-02-14 20:43:29,642 - model.pytorch.supervisor - INFO - Epoch [23/250] (168) test_nll: 683875.4375, test_mae: 0.6383, test_non_mae: 36673928.0000, lr: 0.001000, 1.5s
+2023-02-14 20:43:33,839 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:33,840 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:34,467 - model.pytorch.supervisor - INFO - Epoch [24/250] (175) train_loss: 0.6491, l2_nll: 0.6491, l2_kld: 0.0000, val_mae: 29207.7617, lr: 0.001000, 1.5s
+2023-02-14 20:43:35,442 - model.pytorch.supervisor - INFO - Epoch [24/250] (175) test_nll: 913610.2500, test_mae: 0.6310, test_non_mae: 25214486.0000, lr: 0.001000, 1.5s
+2023-02-14 20:43:39,691 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:39,692 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:40,361 - model.pytorch.supervisor - INFO - Epoch [25/250] (182) train_loss: 0.6021, l2_nll: 0.6021, l2_kld: 0.0001, val_mae: 31752.1992, lr: 0.001000, 1.6s
+2023-02-14 20:43:41,332 - model.pytorch.supervisor - INFO - Epoch [25/250] (182) test_nll: 993916.5625, test_mae: 0.6193, test_non_mae: 23363034.0000, lr: 0.001000, 1.6s
+2023-02-14 20:43:45,571 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:45,571 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:46,245 - model.pytorch.supervisor - INFO - Epoch [26/250] (189) train_loss: 0.5704, l2_nll: 0.5703, l2_kld: 0.0001, val_mae: 55628.0625, lr: 0.001000, 1.7s
+2023-02-14 20:43:47,218 - model.pytorch.supervisor - INFO - Epoch [26/250] (189) test_nll: 1411820.8750, test_mae: 0.6203, test_non_mae: 57327736.0000, lr: 0.001000, 1.7s
+2023-02-14 20:43:51,350 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:51,350 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:51,980 - model.pytorch.supervisor - INFO - Epoch [27/250] (196) train_loss: 0.5456, l2_nll: 0.5453, l2_kld: 0.0003, val_mae: 89582.7734, lr: 0.001000, 1.6s
+2023-02-14 20:43:52,909 - model.pytorch.supervisor - INFO - Epoch [27/250] (196) test_nll: 1366221.7500, test_mae: 0.6120, test_non_mae: 96282952.0000, lr: 0.001000, 1.6s
+2023-02-14 20:43:57,066 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:43:57,067 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:43:57,642 - model.pytorch.supervisor - INFO - Epoch [28/250] (203) train_loss: 0.5055, l2_nll: 0.5050, l2_kld: 0.0004, val_mae: 125117.2812, lr: 0.001000, 1.5s
+2023-02-14 20:43:58,523 - model.pytorch.supervisor - INFO - Epoch [28/250] (203) test_nll: 1960327.8750, test_mae: 0.6003, test_non_mae: 138341376.0000, lr: 0.001000, 1.5s
+2023-02-14 20:44:02,774 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:02,775 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:03,339 - model.pytorch.supervisor - INFO - Epoch [29/250] (210) train_loss: 0.4772, l2_nll: 0.4768, l2_kld: 0.0004, val_mae: 117582.4453, lr: 0.001000, 1.5s
+2023-02-14 20:44:04,239 - model.pytorch.supervisor - INFO - Epoch [29/250] (210) test_nll: 998627.3125, test_mae: 0.5913, test_non_mae: 89149632.0000, lr: 0.001000, 1.5s
+2023-02-14 20:44:08,365 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:08,365 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:08,920 - model.pytorch.supervisor - INFO - Epoch [30/250] (217) train_loss: 0.4432, l2_nll: 0.4428, l2_kld: 0.0004, val_mae: 110548.6484, lr: 0.001000, 1.4s
+2023-02-14 20:44:09,816 - model.pytorch.supervisor - INFO - Epoch [30/250] (217) test_nll: 512186.0312, test_mae: 0.5799, test_non_mae: 58670816.0000, lr: 0.001000, 1.4s
+2023-02-14 20:44:14,186 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:14,188 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:14,771 - model.pytorch.supervisor - INFO - Epoch [31/250] (224) train_loss: 0.4321, l2_nll: 0.4314, l2_kld: 0.0007, val_mae: 91461.5703, lr: 0.001000, 1.5s
+2023-02-14 20:44:15,702 - model.pytorch.supervisor - INFO - Epoch [31/250] (224) test_nll: 226656.6562, test_mae: 0.5557, test_non_mae: 45569884.0000, lr: 0.001000, 1.5s
+2023-02-14 20:44:19,544 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:19,545 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:20,081 - model.pytorch.supervisor - INFO - Epoch [32/250] (231) train_loss: 0.4202, l2_nll: 0.4194, l2_kld: 0.0008, val_mae: 102284.6953, lr: 0.001000, 1.4s
+2023-02-14 20:44:21,103 - model.pytorch.supervisor - INFO - Epoch [32/250] (231) test_nll: 136102.7656, test_mae: 0.5515, test_non_mae: 41181096.0000, lr: 0.001000, 1.4s
+2023-02-14 20:44:25,081 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:25,082 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:25,660 - model.pytorch.supervisor - INFO - Epoch [33/250] (238) train_loss: 0.3791, l2_nll: 0.3786, l2_kld: 0.0005, val_mae: 141855.7188, lr: 0.001000, 1.5s
+2023-02-14 20:44:26,596 - model.pytorch.supervisor - INFO - Epoch [33/250] (238) test_nll: 186574.7188, test_mae: 0.5430, test_non_mae: 71153712.0000, lr: 0.001000, 1.5s
+2023-02-14 20:44:30,636 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:30,636 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:31,225 - model.pytorch.supervisor - INFO - Epoch [34/250] (245) train_loss: 0.3653, l2_nll: 0.3648, l2_kld: 0.0005, val_mae: 122850.3047, lr: 0.001000, 1.5s
+2023-02-14 20:44:32,207 - model.pytorch.supervisor - INFO - Epoch [34/250] (245) test_nll: 109035.8594, test_mae: 0.5352, test_non_mae: 54643168.0000, lr: 0.001000, 1.5s
+2023-02-14 20:44:36,607 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:36,608 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:37,271 - model.pytorch.supervisor - INFO - Epoch [35/250] (252) train_loss: 0.3253, l2_nll: 0.3241, l2_kld: 0.0012, val_mae: 190005.5938, lr: 0.001000, 1.9s
+2023-02-14 20:44:38,213 - model.pytorch.supervisor - INFO - Epoch [35/250] (252) test_nll: 128890.9844, test_mae: 0.5337, test_non_mae: 83897288.0000, lr: 0.001000, 1.9s
+2023-02-14 20:44:42,649 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:42,650 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:43,270 - model.pytorch.supervisor - INFO - Epoch [36/250] (259) train_loss: 0.3021, l2_nll: 0.3016, l2_kld: 0.0005, val_mae: 186166.5469, lr: 0.001000, 1.8s
+2023-02-14 20:44:44,212 - model.pytorch.supervisor - INFO - Epoch [36/250] (259) test_nll: 87094.4297, test_mae: 0.5224, test_non_mae: 76898136.0000, lr: 0.001000, 1.8s
+2023-02-14 20:44:48,837 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:48,839 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:49,451 - model.pytorch.supervisor - INFO - Epoch [37/250] (266) train_loss: 0.2945, l2_nll: 0.2932, l2_kld: 0.0012, val_mae: 161459.7344, lr: 0.001000, 1.8s
+2023-02-14 20:44:50,434 - model.pytorch.supervisor - INFO - Epoch [37/250] (266) test_nll: 46287.8945, test_mae: 0.5073, test_non_mae: 53704152.0000, lr: 0.001000, 1.8s
+2023-02-14 20:44:54,912 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:44:54,912 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:44:55,546 - model.pytorch.supervisor - INFO - Epoch [38/250] (273) train_loss: 0.2570, l2_nll: 0.2562, l2_kld: 0.0007, val_mae: 172517.7031, lr: 0.001000, 1.8s
+2023-02-14 20:44:56,519 - model.pytorch.supervisor - INFO - Epoch [38/250] (273) test_nll: 30027.1094, test_mae: 0.4950, test_non_mae: 51689832.0000, lr: 0.001000, 1.8s
+2023-02-14 20:45:00,519 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:00,519 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:01,119 - model.pytorch.supervisor - INFO - Epoch [39/250] (280) train_loss: 0.2334, l2_nll: 0.2319, l2_kld: 0.0015, val_mae: 158056.8438, lr: 0.001000, 1.6s
+2023-02-14 20:45:02,034 - model.pytorch.supervisor - INFO - Epoch [39/250] (280) test_nll: 14968.7197, test_mae: 0.4863, test_non_mae: 40329784.0000, lr: 0.001000, 1.6s
+2023-02-14 20:45:06,006 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:06,007 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:06,573 - model.pytorch.supervisor - INFO - Epoch [40/250] (287) train_loss: 0.2288, l2_nll: 0.2277, l2_kld: 0.0011, val_mae: 218400.4688, lr: 0.001000, 1.5s
+2023-02-14 20:45:07,498 - model.pytorch.supervisor - INFO - Epoch [40/250] (287) test_nll: 10092.1729, test_mae: 0.4854, test_non_mae: 48197312.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:11,670 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:11,671 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:12,241 - model.pytorch.supervisor - INFO - Epoch [41/250] (294) train_loss: 0.2071, l2_nll: 0.2067, l2_kld: 0.0005, val_mae: 186647.2031, lr: 0.001000, 1.5s
+2023-02-14 20:45:13,144 - model.pytorch.supervisor - INFO - Epoch [41/250] (294) test_nll: 4081.8525, test_mae: 0.4695, test_non_mae: 32841522.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:17,656 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:17,657 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:18,238 - model.pytorch.supervisor - INFO - Epoch [42/250] (301) train_loss: 0.1985, l2_nll: 0.1972, l2_kld: 0.0014, val_mae: 276507.2500, lr: 0.001000, 1.5s
+2023-02-14 20:45:19,147 - model.pytorch.supervisor - INFO - Epoch [42/250] (301) test_nll: 3962.3162, test_mae: 0.4682, test_non_mae: 42287632.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:22,999 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:22,999 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:23,564 - model.pytorch.supervisor - INFO - Epoch [43/250] (308) train_loss: 0.1759, l2_nll: 0.1744, l2_kld: 0.0015, val_mae: 277022.4062, lr: 0.001000, 1.4s
+2023-02-14 20:45:24,452 - model.pytorch.supervisor - INFO - Epoch [43/250] (308) test_nll: 2510.2173, test_mae: 0.4627, test_non_mae: 32861626.0000, lr: 0.001000, 1.4s
+2023-02-14 20:45:28,587 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:28,589 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:29,135 - model.pytorch.supervisor - INFO - Epoch [44/250] (315) train_loss: 0.1344, l2_nll: 0.1334, l2_kld: 0.0010, val_mae: 359733.0625, lr: 0.001000, 1.5s
+2023-02-14 20:45:30,033 - model.pytorch.supervisor - INFO - Epoch [44/250] (315) test_nll: 1532.3457, test_mae: 0.4595, test_non_mae: 35748720.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:34,047 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:34,048 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:34,592 - model.pytorch.supervisor - INFO - Epoch [45/250] (322) train_loss: 0.1410, l2_nll: 0.1405, l2_kld: 0.0006, val_mae: 279956.7500, lr: 0.001000, 1.4s
+2023-02-14 20:45:35,532 - model.pytorch.supervisor - INFO - Epoch [45/250] (322) test_nll: 1067.9352, test_mae: 0.4461, test_non_mae: 25896210.0000, lr: 0.001000, 1.4s
+2023-02-14 20:45:39,510 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:39,510 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:40,048 - model.pytorch.supervisor - INFO - Epoch [46/250] (329) train_loss: 0.1269, l2_nll: 0.1255, l2_kld: 0.0014, val_mae: 490551.9375, lr: 0.001000, 1.4s
+2023-02-14 20:45:41,077 - model.pytorch.supervisor - INFO - Epoch [46/250] (329) test_nll: 1066.9617, test_mae: 0.4532, test_non_mae: 41500640.0000, lr: 0.001000, 1.4s
+2023-02-14 20:45:45,144 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:45,145 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:45,730 - model.pytorch.supervisor - INFO - Epoch [47/250] (336) train_loss: 0.0975, l2_nll: 0.0971, l2_kld: 0.0005, val_mae: 495157.9062, lr: 0.001000, 1.5s
+2023-02-14 20:45:46,658 - model.pytorch.supervisor - INFO - Epoch [47/250] (336) test_nll: 811.6667, test_mae: 0.4474, test_non_mae: 42386884.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:50,684 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:50,685 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:51,251 - model.pytorch.supervisor - INFO - Epoch [48/250] (343) train_loss: 0.1099, l2_nll: 0.1082, l2_kld: 0.0017, val_mae: 457237.4062, lr: 0.001000, 1.5s
+2023-02-14 20:45:52,173 - model.pytorch.supervisor - INFO - Epoch [48/250] (343) test_nll: 579.5872, test_mae: 0.4383, test_non_mae: 29179184.0000, lr: 0.001000, 1.5s
+2023-02-14 20:45:56,133 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:45:56,134 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:45:56,687 - model.pytorch.supervisor - INFO - Epoch [49/250] (350) train_loss: 0.0922, l2_nll: 0.0910, l2_kld: 0.0012, val_mae: 470979.5312, lr: 0.001000, 1.5s
+2023-02-14 20:45:57,628 - model.pytorch.supervisor - INFO - Epoch [49/250] (350) test_nll: 514.2714, test_mae: 0.4344, test_non_mae: 24500622.0000, lr: 0.001000, 1.5s
+2023-02-14 20:46:01,540 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:01,541 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:02,121 - model.pytorch.supervisor - INFO - Epoch [50/250] (357) train_loss: 0.0757, l2_nll: 0.0741, l2_kld: 0.0016, val_mae: 546511.7500, lr: 0.001000, 1.5s
+2023-02-14 20:46:03,033 - model.pytorch.supervisor - INFO - Epoch [50/250] (357) test_nll: 690.6321, test_mae: 0.4383, test_non_mae: 28427236.0000, lr: 0.001000, 1.5s
+2023-02-14 20:46:07,461 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:07,461 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:08,062 - model.pytorch.supervisor - INFO - Epoch [51/250] (364) train_loss: 0.0553, l2_nll: 0.0544, l2_kld: 0.0009, val_mae: 526137.7500, lr: 0.001000, 1.8s
+2023-02-14 20:46:09,029 - model.pytorch.supervisor - INFO - Epoch [51/250] (364) test_nll: 886.3106, test_mae: 0.4344, test_non_mae: 29994644.0000, lr: 0.001000, 1.8s
+2023-02-14 20:46:13,257 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:13,258 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:13,814 - model.pytorch.supervisor - INFO - Epoch [52/250] (371) train_loss: 0.0804, l2_nll: 0.0793, l2_kld: 0.0011, val_mae: 484453.2500, lr: 0.001000, 1.6s
+2023-02-14 20:46:14,690 - model.pytorch.supervisor - INFO - Epoch [52/250] (371) test_nll: 890.8483, test_mae: 0.4363, test_non_mae: 20977366.0000, lr: 0.001000, 1.6s
+2023-02-14 20:46:18,804 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:18,805 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:19,365 - model.pytorch.supervisor - INFO - Epoch [53/250] (378) train_loss: 0.0967, l2_nll: 0.0959, l2_kld: 0.0008, val_mae: 361387.5625, lr: 0.001000, 1.4s
+2023-02-14 20:46:20,266 - model.pytorch.supervisor - INFO - Epoch [53/250] (378) test_nll: 608.1191, test_mae: 0.4198, test_non_mae: 11604080.0000, lr: 0.001000, 1.4s
+2023-02-14 20:46:24,267 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:24,268 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:24,812 - model.pytorch.supervisor - INFO - Epoch [54/250] (385) train_loss: 0.0618, l2_nll: 0.0605, l2_kld: 0.0013, val_mae: 300449.5938, lr: 0.001000, 1.4s
+2023-02-14 20:46:25,785 - model.pytorch.supervisor - INFO - Epoch [54/250] (385) test_nll: 512.9338, test_mae: 0.4183, test_non_mae: 6543575.5000, lr: 0.001000, 1.4s
+2023-02-14 20:46:29,673 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:29,674 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:30,236 - model.pytorch.supervisor - INFO - Epoch [55/250] (392) train_loss: 0.0579, l2_nll: 0.0567, l2_kld: 0.0011, val_mae: 289687.0625, lr: 0.001000, 1.4s
+2023-02-14 20:46:31,232 - model.pytorch.supervisor - INFO - Epoch [55/250] (392) test_nll: 737.1815, test_mae: 0.4162, test_non_mae: 7455503.0000, lr: 0.001000, 1.4s
+2023-02-14 20:46:35,193 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:35,194 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:35,755 - model.pytorch.supervisor - INFO - Epoch [56/250] (399) train_loss: 0.0367, l2_nll: 0.0357, l2_kld: 0.0010, val_mae: 246004.3906, lr: 0.001000, 1.4s
+2023-02-14 20:46:36,704 - model.pytorch.supervisor - INFO - Epoch [56/250] (399) test_nll: 747.4939, test_mae: 0.4099, test_non_mae: 4867844.5000, lr: 0.001000, 1.4s
+2023-02-14 20:46:40,612 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:40,612 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:41,156 - model.pytorch.supervisor - INFO - Epoch [57/250] (406) train_loss: 0.0257, l2_nll: 0.0243, l2_kld: 0.0014, val_mae: 229516.2031, lr: 0.001000, 1.4s
+2023-02-14 20:46:42,111 - model.pytorch.supervisor - INFO - Epoch [57/250] (406) test_nll: 931.7813, test_mae: 0.4063, test_non_mae: 4171990.2500, lr: 0.001000, 1.4s
+2023-02-14 20:46:46,761 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:46,763 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:47,448 - model.pytorch.supervisor - INFO - Epoch [58/250] (413) train_loss: 0.0449, l2_nll: 0.0427, l2_kld: 0.0022, val_mae: 500434.4375, lr: 0.001000, 1.8s
+2023-02-14 20:46:48,407 - model.pytorch.supervisor - INFO - Epoch [58/250] (413) test_nll: 2025.7441, test_mae: 0.4288, test_non_mae: 13309416.0000, lr: 0.001000, 1.8s
+2023-02-14 20:46:52,930 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:52,931 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:53,495 - model.pytorch.supervisor - INFO - Epoch [59/250] (420) train_loss: 0.0496, l2_nll: 0.0486, l2_kld: 0.0010, val_mae: 403242.0312, lr: 0.001000, 1.6s
+2023-02-14 20:46:54,405 - model.pytorch.supervisor - INFO - Epoch [59/250] (420) test_nll: 1533.8853, test_mae: 0.4226, test_non_mae: 6994286.0000, lr: 0.001000, 1.6s
+2023-02-14 20:46:58,891 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:46:58,891 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:46:59,462 - model.pytorch.supervisor - INFO - Epoch [60/250] (427) train_loss: 0.0619, l2_nll: 0.0616, l2_kld: 0.0003, val_mae: 253166.1875, lr: 0.001000, 1.5s
+2023-02-14 20:47:00,431 - model.pytorch.supervisor - INFO - Epoch [60/250] (427) test_nll: 1037.3529, test_mae: 0.4047, test_non_mae: 3974615.2500, lr: 0.001000, 1.5s
+2023-02-14 20:47:04,655 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:04,656 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:05,215 - model.pytorch.supervisor - INFO - Epoch [61/250] (434) train_loss: 0.0577, l2_nll: 0.0570, l2_kld: 0.0006, val_mae: 263072.9375, lr: 0.001000, 1.4s
+2023-02-14 20:47:06,259 - model.pytorch.supervisor - INFO - Epoch [61/250] (434) test_nll: 1122.8466, test_mae: 0.4051, test_non_mae: 4230946.5000, lr: 0.001000, 1.4s
+2023-02-14 20:47:10,576 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:10,576 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:11,341 - model.pytorch.supervisor - INFO - Epoch [62/250] (441) train_loss: 0.0762, l2_nll: 0.0753, l2_kld: 0.0010, val_mae: 447213.5000, lr: 0.001000, 1.7s
+2023-02-14 20:47:12,296 - model.pytorch.supervisor - INFO - Epoch [62/250] (441) test_nll: 1914.3608, test_mae: 0.4269, test_non_mae: 9308854.0000, lr: 0.001000, 1.7s
+2023-02-14 20:47:16,410 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:16,410 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:17,088 - model.pytorch.supervisor - INFO - Epoch [63/250] (448) train_loss: 0.0916, l2_nll: 0.0908, l2_kld: 0.0008, val_mae: 394943.1875, lr: 0.001000, 1.7s
+2023-02-14 20:47:18,066 - model.pytorch.supervisor - INFO - Epoch [63/250] (448) test_nll: 1549.3790, test_mae: 0.4446, test_non_mae: 5319629.0000, lr: 0.001000, 1.7s
+2023-02-14 20:47:22,478 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:22,478 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:23,078 - model.pytorch.supervisor - INFO - Epoch [64/250] (455) train_loss: 0.0905, l2_nll: 0.0901, l2_kld: 0.0004, val_mae: 771432.7500, lr: 0.001000, 1.7s
+2023-02-14 20:47:23,986 - model.pytorch.supervisor - INFO - Epoch [64/250] (455) test_nll: 3062.2644, test_mae: 0.4399, test_non_mae: 20185532.0000, lr: 0.001000, 1.7s
+2023-02-14 20:47:28,373 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:28,373 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:28,960 - model.pytorch.supervisor - INFO - Epoch [65/250] (462) train_loss: 0.0506, l2_nll: 0.0500, l2_kld: 0.0006, val_mae: 235718.8594, lr: 0.001000, 1.5s
+2023-02-14 20:47:29,859 - model.pytorch.supervisor - INFO - Epoch [65/250] (462) test_nll: 1101.8733, test_mae: 0.3990, test_non_mae: 2889604.5000, lr: 0.001000, 1.5s
+2023-02-14 20:47:33,983 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:33,983 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:34,527 - model.pytorch.supervisor - INFO - Epoch [66/250] (469) train_loss: 0.0748, l2_nll: 0.0744, l2_kld: 0.0004, val_mae: 211016.7812, lr: 0.001000, 1.3s
+2023-02-14 20:47:35,466 - model.pytorch.supervisor - INFO - Epoch [66/250] (469) test_nll: 963.8888, test_mae: 0.3938, test_non_mae: 2100261.2500, lr: 0.001000, 1.3s
+2023-02-14 20:47:39,533 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:39,534 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:40,067 - model.pytorch.supervisor - INFO - Epoch [67/250] (476) train_loss: 0.0171, l2_nll: 0.0168, l2_kld: 0.0003, val_mae: 348685.4375, lr: 0.001000, 1.4s
+2023-02-14 20:47:41,070 - model.pytorch.supervisor - INFO - Epoch [67/250] (476) test_nll: 2129.4253, test_mae: 0.4138, test_non_mae: 5078254.5000, lr: 0.001000, 1.4s
+2023-02-14 20:47:45,154 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:45,155 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:45,699 - model.pytorch.supervisor - INFO - Epoch [68/250] (483) train_loss: 0.0000, l2_nll: -0.0004, l2_kld: 0.0004, val_mae: 285142.3438, lr: 0.001000, 1.4s
+2023-02-14 20:47:46,640 - model.pytorch.supervisor - INFO - Epoch [68/250] (483) test_nll: 2729.3162, test_mae: 0.4053, test_non_mae: 3477402.0000, lr: 0.001000, 1.4s
+2023-02-14 20:47:50,794 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:50,794 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:51,336 - model.pytorch.supervisor - INFO - Epoch [69/250] (490) train_loss: 0.0254, l2_nll: 0.0249, l2_kld: 0.0005, val_mae: 241963.8281, lr: 0.001000, 1.5s
+2023-02-14 20:47:52,251 - model.pytorch.supervisor - INFO - Epoch [69/250] (490) test_nll: 3203.6982, test_mae: 0.3975, test_non_mae: 2773212.7500, lr: 0.001000, 1.5s
+2023-02-14 20:47:56,241 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:47:56,241 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:47:56,869 - model.pytorch.supervisor - INFO - Epoch [70/250] (497) train_loss: -0.0025, l2_nll: -0.0030, l2_kld: 0.0004, val_mae: 240954.6562, lr: 0.001000, 1.6s
+2023-02-14 20:47:57,824 - model.pytorch.supervisor - INFO - Epoch [70/250] (497) test_nll: 3206.4565, test_mae: 0.3966, test_non_mae: 2730317.5000, lr: 0.001000, 1.6s
+2023-02-14 20:48:01,916 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:01,917 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:02,515 - model.pytorch.supervisor - INFO - Epoch [71/250] (504) train_loss: -0.0164, l2_nll: -0.0174, l2_kld: 0.0010, val_mae: 253337.0938, lr: 0.001000, 1.6s
+2023-02-14 20:48:03,386 - model.pytorch.supervisor - INFO - Epoch [71/250] (504) test_nll: 4757.8696, test_mae: 0.4011, test_non_mae: 2941578.0000, lr: 0.001000, 1.6s
+2023-02-14 20:48:07,531 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:07,531 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:08,085 - model.pytorch.supervisor - INFO - Epoch [72/250] (511) train_loss: -0.0051, l2_nll: -0.0057, l2_kld: 0.0006, val_mae: 301731.5938, lr: 0.001000, 1.5s
+2023-02-14 20:48:08,983 - model.pytorch.supervisor - INFO - Epoch [72/250] (511) test_nll: 7661.9546, test_mae: 0.4022, test_non_mae: 4272088.5000, lr: 0.001000, 1.5s
+2023-02-14 20:48:13,198 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:13,199 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:13,765 - model.pytorch.supervisor - INFO - Epoch [73/250] (518) train_loss: -0.0149, l2_nll: -0.0151, l2_kld: 0.0003, val_mae: 190957.7031, lr: 0.001000, 1.5s
+2023-02-14 20:48:14,668 - model.pytorch.supervisor - INFO - Epoch [73/250] (518) test_nll: 6568.7227, test_mae: 0.3919, test_non_mae: 2858511.2500, lr: 0.001000, 1.5s
+2023-02-14 20:48:18,639 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:18,639 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:19,170 - model.pytorch.supervisor - INFO - Epoch [74/250] (525) train_loss: -0.0199, l2_nll: -0.0203, l2_kld: 0.0004, val_mae: 323190.8438, lr: 0.001000, 1.4s
+2023-02-14 20:48:20,046 - model.pytorch.supervisor - INFO - Epoch [74/250] (525) test_nll: 12106.4580, test_mae: 0.3973, test_non_mae: 5195166.0000, lr: 0.001000, 1.4s
+2023-02-14 20:48:24,090 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:24,090 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:24,633 - model.pytorch.supervisor - INFO - Epoch [75/250] (532) train_loss: -0.0301, l2_nll: -0.0305, l2_kld: 0.0005, val_mae: 262798.4375, lr: 0.001000, 1.5s
+2023-02-14 20:48:25,589 - model.pytorch.supervisor - INFO - Epoch [75/250] (532) test_nll: 14764.2207, test_mae: 0.3954, test_non_mae: 5022051.5000, lr: 0.001000, 1.5s
+2023-02-14 20:48:29,907 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:29,908 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:30,576 - model.pytorch.supervisor - INFO - Epoch [76/250] (539) train_loss: -0.0513, l2_nll: -0.0515, l2_kld: 0.0002, val_mae: 222360.8281, lr: 0.001000, 1.8s
+2023-02-14 20:48:31,589 - model.pytorch.supervisor - INFO - Epoch [76/250] (539) test_nll: 16669.7715, test_mae: 0.3905, test_non_mae: 4773850.5000, lr: 0.001000, 1.8s
+2023-02-14 20:48:35,813 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:35,813 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:36,410 - model.pytorch.supervisor - INFO - Epoch [77/250] (546) train_loss: -0.0712, l2_nll: -0.0716, l2_kld: 0.0004, val_mae: 214234.2031, lr: 0.001000, 1.8s
+2023-02-14 20:48:37,371 - model.pytorch.supervisor - INFO - Epoch [77/250] (546) test_nll: 34704.0781, test_mae: 0.3918, test_non_mae: 5789725.5000, lr: 0.001000, 1.8s
+2023-02-14 20:48:41,426 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:41,427 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:42,004 - model.pytorch.supervisor - INFO - Epoch [78/250] (553) train_loss: -0.0579, l2_nll: -0.0581, l2_kld: 0.0003, val_mae: 176338.7500, lr: 0.001000, 1.5s
+2023-02-14 20:48:42,904 - model.pytorch.supervisor - INFO - Epoch [78/250] (553) test_nll: 34496.7891, test_mae: 0.3851, test_non_mae: 4611601.0000, lr: 0.001000, 1.5s
+2023-02-14 20:48:46,930 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:46,932 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:47,511 - model.pytorch.supervisor - INFO - Epoch [79/250] (560) train_loss: -0.0547, l2_nll: -0.0553, l2_kld: 0.0006, val_mae: 178563.4219, lr: 0.001000, 1.5s
+2023-02-14 20:48:48,404 - model.pytorch.supervisor - INFO - Epoch [79/250] (560) test_nll: 41571.6875, test_mae: 0.3849, test_non_mae: 4561318.5000, lr: 0.001000, 1.5s
+2023-02-14 20:48:52,470 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:52,470 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:53,020 - model.pytorch.supervisor - INFO - Epoch [80/250] (567) train_loss: -0.0867, l2_nll: -0.0871, l2_kld: 0.0004, val_mae: 158285.9375, lr: 0.001000, 1.5s
+2023-02-14 20:48:53,933 - model.pytorch.supervisor - INFO - Epoch [80/250] (567) test_nll: 77261.9844, test_mae: 0.3875, test_non_mae: 7424063.0000, lr: 0.001000, 1.5s
+2023-02-14 20:48:58,103 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:48:58,105 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:48:58,683 - model.pytorch.supervisor - INFO - Epoch [81/250] (574) train_loss: -0.0730, l2_nll: -0.0737, l2_kld: 0.0007, val_mae: 251305.8281, lr: 0.001000, 1.5s
+2023-02-14 20:48:59,588 - model.pytorch.supervisor - INFO - Epoch [81/250] (574) test_nll: 74336.5938, test_mae: 0.3828, test_non_mae: 5851732.5000, lr: 0.001000, 1.5s
+2023-02-14 20:49:03,825 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:03,826 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:04,389 - model.pytorch.supervisor - INFO - Epoch [82/250] (581) train_loss: -0.0827, l2_nll: -0.0832, l2_kld: 0.0005, val_mae: 165390.7656, lr: 0.001000, 1.5s
+2023-02-14 20:49:05,271 - model.pytorch.supervisor - INFO - Epoch [82/250] (581) test_nll: 88291.4766, test_mae: 0.3803, test_non_mae: 5459673.5000, lr: 0.001000, 1.5s
+2023-02-14 20:49:09,293 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:09,293 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:09,848 - model.pytorch.supervisor - INFO - Epoch [83/250] (588) train_loss: -0.0727, l2_nll: -0.0731, l2_kld: 0.0004, val_mae: 168027.1250, lr: 0.001000, 1.3s
+2023-02-14 20:49:10,814 - model.pytorch.supervisor - INFO - Epoch [83/250] (588) test_nll: 129781.8438, test_mae: 0.3844, test_non_mae: 7884649.5000, lr: 0.001000, 1.3s
+2023-02-14 20:49:14,638 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:14,639 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:15,206 - model.pytorch.supervisor - INFO - Epoch [84/250] (595) train_loss: -0.0772, l2_nll: -0.0775, l2_kld: 0.0003, val_mae: 167115.3125, lr: 0.001000, 1.4s
+2023-02-14 20:49:16,164 - model.pytorch.supervisor - INFO - Epoch [84/250] (595) test_nll: 69643.9844, test_mae: 0.3749, test_non_mae: 4515666.5000, lr: 0.001000, 1.4s
+2023-02-14 20:49:20,376 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:20,377 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:21,225 - model.pytorch.supervisor - INFO - Epoch [85/250] (602) train_loss: -0.0909, l2_nll: -0.0912, l2_kld: 0.0004, val_mae: 143835.0781, lr: 0.001000, 1.8s
+2023-02-14 20:49:22,201 - model.pytorch.supervisor - INFO - Epoch [85/250] (602) test_nll: 84712.9609, test_mae: 0.3729, test_non_mae: 4744107.5000, lr: 0.001000, 1.8s
+2023-02-14 20:49:25,976 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:25,976 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:26,527 - model.pytorch.supervisor - INFO - Epoch [86/250] (609) train_loss: -0.0791, l2_nll: -0.0795, l2_kld: 0.0004, val_mae: 226167.0938, lr: 0.001000, 1.4s
+2023-02-14 20:49:27,498 - model.pytorch.supervisor - INFO - Epoch [86/250] (609) test_nll: 147550.8281, test_mae: 0.3893, test_non_mae: 8858645.0000, lr: 0.001000, 1.4s
+2023-02-14 20:49:31,865 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:31,866 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:32,526 - model.pytorch.supervisor - INFO - Epoch [87/250] (616) train_loss: -0.1051, l2_nll: -0.1053, l2_kld: 0.0003, val_mae: 220967.7656, lr: 0.001000, 1.7s
+2023-02-14 20:49:33,703 - model.pytorch.supervisor - INFO - Epoch [87/250] (616) test_nll: 169936.6094, test_mae: 0.3914, test_non_mae: 9480500.0000, lr: 0.001000, 1.7s
+2023-02-14 20:49:38,002 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:38,003 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:38,652 - model.pytorch.supervisor - INFO - Epoch [88/250] (623) train_loss: -0.1017, l2_nll: -0.1021, l2_kld: 0.0004, val_mae: 138098.6250, lr: 0.001000, 1.7s
+2023-02-14 20:49:39,544 - model.pytorch.supervisor - INFO - Epoch [88/250] (623) test_nll: 148631.7188, test_mae: 0.3744, test_non_mae: 5757436.5000, lr: 0.001000, 1.7s
+2023-02-14 20:49:43,762 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:43,762 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:44,338 - model.pytorch.supervisor - INFO - Epoch [89/250] (630) train_loss: -0.1133, l2_nll: -0.1136, l2_kld: 0.0003, val_mae: 129087.7578, lr: 0.001000, 1.6s
+2023-02-14 20:49:45,276 - model.pytorch.supervisor - INFO - Epoch [89/250] (630) test_nll: 167036.0000, test_mae: 0.3740, test_non_mae: 6400003.5000, lr: 0.001000, 1.6s
+2023-02-14 20:49:49,378 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:49,379 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:49,928 - model.pytorch.supervisor - INFO - Epoch [90/250] (637) train_loss: -0.1074, l2_nll: -0.1083, l2_kld: 0.0009, val_mae: 241436.7188, lr: 0.001000, 1.5s
+2023-02-14 20:49:50,947 - model.pytorch.supervisor - INFO - Epoch [90/250] (637) test_nll: 339119.4375, test_mae: 0.3926, test_non_mae: 13236154.0000, lr: 0.001000, 1.5s
+2023-02-14 20:49:54,718 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:54,719 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:49:55,257 - model.pytorch.supervisor - INFO - Epoch [91/250] (644) train_loss: -0.1070, l2_nll: -0.1072, l2_kld: 0.0002, val_mae: 195829.1250, lr: 0.001000, 1.3s
+2023-02-14 20:49:56,216 - model.pytorch.supervisor - INFO - Epoch [91/250] (644) test_nll: 199649.0469, test_mae: 0.3855, test_non_mae: 8868473.0000, lr: 0.001000, 1.3s
+2023-02-14 20:49:59,837 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:49:59,838 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:00,396 - model.pytorch.supervisor - INFO - Epoch [92/250] (651) train_loss: -0.1368, l2_nll: -0.1372, l2_kld: 0.0004, val_mae: 111410.9531, lr: 0.001000, 1.3s
+2023-02-14 20:50:01,347 - model.pytorch.supervisor - INFO - Epoch [92/250] (651) test_nll: 198867.1094, test_mae: 0.3716, test_non_mae: 6410701.0000, lr: 0.001000, 1.3s
+2023-02-14 20:50:05,133 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:05,134 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:05,714 - model.pytorch.supervisor - INFO - Epoch [93/250] (658) train_loss: -0.1228, l2_nll: -0.1232, l2_kld: 0.0004, val_mae: 119999.4609, lr: 0.001000, 1.4s
+2023-02-14 20:50:06,647 - model.pytorch.supervisor - INFO - Epoch [93/250] (658) test_nll: 144957.7500, test_mae: 0.3701, test_non_mae: 4073302.2500, lr: 0.001000, 1.4s
+2023-02-14 20:50:10,357 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:10,357 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:10,985 - model.pytorch.supervisor - INFO - Epoch [94/250] (665) train_loss: -0.1266, l2_nll: -0.1269, l2_kld: 0.0003, val_mae: 207697.5938, lr: 0.001000, 1.5s
+2023-02-14 20:50:11,923 - model.pytorch.supervisor - INFO - Epoch [94/250] (665) test_nll: 247318.6875, test_mae: 0.3824, test_non_mae: 7423826.5000, lr: 0.001000, 1.5s
+2023-02-14 20:50:15,584 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:15,585 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:16,144 - model.pytorch.supervisor - INFO - Epoch [95/250] (672) train_loss: -0.1425, l2_nll: -0.1430, l2_kld: 0.0005, val_mae: 202614.7031, lr: 0.001000, 1.4s
+2023-02-14 20:50:17,081 - model.pytorch.supervisor - INFO - Epoch [95/250] (672) test_nll: 343658.5312, test_mae: 0.3887, test_non_mae: 9513715.0000, lr: 0.001000, 1.4s
+2023-02-14 20:50:21,024 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:21,024 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:21,588 - model.pytorch.supervisor - INFO - Epoch [96/250] (679) train_loss: -0.1315, l2_nll: -0.1317, l2_kld: 0.0003, val_mae: 113991.1406, lr: 0.001000, 1.6s
+2023-02-14 20:50:22,477 - model.pytorch.supervisor - INFO - Epoch [96/250] (679) test_nll: 135692.7656, test_mae: 0.3648, test_non_mae: 3415981.0000, lr: 0.001000, 1.6s
+2023-02-14 20:50:26,379 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:26,379 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:26,954 - model.pytorch.supervisor - INFO - Epoch [97/250] (686) train_loss: -0.1406, l2_nll: -0.1409, l2_kld: 0.0004, val_mae: 126511.4766, lr: 0.001000, 1.6s
+2023-02-14 20:50:27,902 - model.pytorch.supervisor - INFO - Epoch [97/250] (686) test_nll: 140332.2031, test_mae: 0.3667, test_non_mae: 3629735.2500, lr: 0.001000, 1.6s
+2023-02-14 20:50:31,782 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:31,783 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:32,365 - model.pytorch.supervisor - INFO - Epoch [98/250] (693) train_loss: -0.1382, l2_nll: -0.1384, l2_kld: 0.0003, val_mae: 163843.7031, lr: 0.001000, 1.5s
+2023-02-14 20:50:33,283 - model.pytorch.supervisor - INFO - Epoch [98/250] (693) test_nll: 165803.5938, test_mae: 0.3762, test_non_mae: 4961713.0000, lr: 0.001000, 1.5s
+2023-02-14 20:50:37,297 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:37,297 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:37,838 - model.pytorch.supervisor - INFO - Epoch [99/250] (700) train_loss: -0.1340, l2_nll: -0.1345, l2_kld: 0.0005, val_mae: 105492.3047, lr: 0.001000, 1.4s
+2023-02-14 20:50:38,745 - model.pytorch.supervisor - INFO - Epoch [99/250] (700) test_nll: 159448.9844, test_mae: 0.3767, test_non_mae: 4885865.5000, lr: 0.001000, 1.4s
+2023-02-14 20:50:42,650 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:42,651 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:43,212 - model.pytorch.supervisor - INFO - Epoch [100/250] (707) train_loss: -0.1418, l2_nll: -0.1421, l2_kld: 0.0003, val_mae: 153978.7188, lr: 0.001000, 1.4s
+2023-02-14 20:50:44,121 - model.pytorch.supervisor - INFO - Epoch [100/250] (707) test_nll: 285507.6562, test_mae: 0.3816, test_non_mae: 6375168.5000, lr: 0.001000, 1.4s
+2023-02-14 20:50:47,929 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:47,930 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:48,445 - model.pytorch.supervisor - INFO - Epoch [101/250] (714) train_loss: -0.1379, l2_nll: -0.1381, l2_kld: 0.0003, val_mae: 147481.5000, lr: 0.001000, 1.3s
+2023-02-14 20:50:49,346 - model.pytorch.supervisor - INFO - Epoch [101/250] (714) test_nll: 320617.0312, test_mae: 0.3796, test_non_mae: 5244830.5000, lr: 0.001000, 1.3s
+2023-02-14 20:50:53,113 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:53,114 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:53,675 - model.pytorch.supervisor - INFO - Epoch [102/250] (721) train_loss: -0.1508, l2_nll: -0.1513, l2_kld: 0.0005, val_mae: 140356.9531, lr: 0.001000, 1.6s
+2023-02-14 20:50:54,610 - model.pytorch.supervisor - INFO - Epoch [102/250] (721) test_nll: 449753.0625, test_mae: 0.3814, test_non_mae: 7004544.5000, lr: 0.001000, 1.6s
+2023-02-14 20:50:58,643 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:50:58,643 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:50:59,251 - model.pytorch.supervisor - INFO - Epoch [103/250] (728) train_loss: -0.1398, l2_nll: -0.1400, l2_kld: 0.0002, val_mae: 148673.0469, lr: 0.001000, 1.7s
+2023-02-14 20:51:00,219 - model.pytorch.supervisor - INFO - Epoch [103/250] (728) test_nll: 228162.3750, test_mae: 0.3795, test_non_mae: 3734548.5000, lr: 0.001000, 1.7s
+2023-02-14 20:51:04,724 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:04,724 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:05,340 - model.pytorch.supervisor - INFO - Epoch [104/250] (735) train_loss: -0.1143, l2_nll: -0.1147, l2_kld: 0.0003, val_mae: 70310.2109, lr: 0.001000, 1.8s
+2023-02-14 20:51:06,348 - model.pytorch.supervisor - INFO - Epoch [104/250] (735) test_nll: 70214.2422, test_mae: 0.3545, test_non_mae: 1235966.5000, lr: 0.001000, 1.8s
+2023-02-14 20:51:10,249 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:10,249 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:10,907 - model.pytorch.supervisor - INFO - Epoch [105/250] (742) train_loss: -0.0918, l2_nll: -0.0920, l2_kld: 0.0002, val_mae: 145776.0469, lr: 0.001000, 1.7s
+2023-02-14 20:51:11,874 - model.pytorch.supervisor - INFO - Epoch [105/250] (742) test_nll: 134301.5156, test_mae: 0.3733, test_non_mae: 3572105.5000, lr: 0.001000, 1.7s
+2023-02-14 20:51:16,042 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:16,043 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:16,730 - model.pytorch.supervisor - INFO - Epoch [106/250] (749) train_loss: -0.1078, l2_nll: -0.1080, l2_kld: 0.0002, val_mae: 208592.0312, lr: 0.001000, 1.9s
+2023-02-14 20:51:17,779 - model.pytorch.supervisor - INFO - Epoch [106/250] (749) test_nll: 207759.6250, test_mae: 0.3888, test_non_mae: 7244745.0000, lr: 0.001000, 1.9s
+2023-02-14 20:51:22,450 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:22,451 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:23,106 - model.pytorch.supervisor - INFO - Epoch [107/250] (756) train_loss: -0.1144, l2_nll: -0.1146, l2_kld: 0.0002, val_mae: 187815.8750, lr: 0.001000, 1.9s
+2023-02-14 20:51:24,013 - model.pytorch.supervisor - INFO - Epoch [107/250] (756) test_nll: 180710.3281, test_mae: 0.4056, test_non_mae: 6103794.5000, lr: 0.001000, 1.9s
+2023-02-14 20:51:28,190 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:28,191 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:28,773 - model.pytorch.supervisor - INFO - Epoch [108/250] (763) train_loss: -0.1332, l2_nll: -0.1337, l2_kld: 0.0005, val_mae: 239541.1719, lr: 0.001000, 1.7s
+2023-02-14 20:51:29,652 - model.pytorch.supervisor - INFO - Epoch [108/250] (763) test_nll: 243390.3125, test_mae: 0.3942, test_non_mae: 7557235.5000, lr: 0.001000, 1.7s
+2023-02-14 20:51:33,677 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:33,678 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:34,249 - model.pytorch.supervisor - INFO - Epoch [109/250] (770) train_loss: -0.1051, l2_nll: -0.1052, l2_kld: 0.0002, val_mae: 117508.6641, lr: 0.001000, 1.5s
+2023-02-14 20:51:35,137 - model.pytorch.supervisor - INFO - Epoch [109/250] (770) test_nll: 107698.0391, test_mae: 0.3689, test_non_mae: 2865361.2500, lr: 0.001000, 1.5s
+2023-02-14 20:51:39,048 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:39,048 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:39,584 - model.pytorch.supervisor - INFO - Epoch [110/250] (777) train_loss: -0.1473, l2_nll: -0.1477, l2_kld: 0.0004, val_mae: 111939.8594, lr: 0.001000, 1.4s
+2023-02-14 20:51:40,506 - model.pytorch.supervisor - INFO - Epoch [110/250] (777) test_nll: 93045.8203, test_mae: 0.3623, test_non_mae: 2326617.0000, lr: 0.001000, 1.4s
+2023-02-14 20:51:44,091 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:44,092 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:44,603 - model.pytorch.supervisor - INFO - Epoch [111/250] (784) train_loss: -0.1140, l2_nll: -0.1142, l2_kld: 0.0002, val_mae: 116253.8359, lr: 0.001000, 1.3s
+2023-02-14 20:51:45,536 - model.pytorch.supervisor - INFO - Epoch [111/250] (784) test_nll: 131936.5000, test_mae: 0.3673, test_non_mae: 3378653.0000, lr: 0.001000, 1.3s
+2023-02-14 20:51:49,292 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:49,293 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:49,858 - model.pytorch.supervisor - INFO - Epoch [112/250] (791) train_loss: -0.1396, l2_nll: -0.1398, l2_kld: 0.0002, val_mae: 178627.1406, lr: 0.001000, 1.4s
+2023-02-14 20:51:50,876 - model.pytorch.supervisor - INFO - Epoch [112/250] (791) test_nll: 156221.1406, test_mae: 0.3860, test_non_mae: 4601537.0000, lr: 0.001000, 1.4s
+2023-02-14 20:51:54,715 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:51:54,715 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:51:55,257 - model.pytorch.supervisor - INFO - Epoch [113/250] (798) train_loss: -0.1328, l2_nll: -0.1329, l2_kld: 0.0001, val_mae: 206508.3125, lr: 0.001000, 1.4s
+2023-02-14 20:51:56,165 - model.pytorch.supervisor - INFO - Epoch [113/250] (798) test_nll: 252368.8594, test_mae: 0.3947, test_non_mae: 6952274.5000, lr: 0.001000, 1.4s
+2023-02-14 20:52:00,078 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:00,079 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:00,751 - model.pytorch.supervisor - INFO - Epoch [114/250] (805) train_loss: -0.1372, l2_nll: -0.1375, l2_kld: 0.0003, val_mae: 182379.7500, lr: 0.001000, 1.7s
+2023-02-14 20:52:01,773 - model.pytorch.supervisor - INFO - Epoch [114/250] (805) test_nll: 227965.4688, test_mae: 0.3875, test_non_mae: 5541138.0000, lr: 0.001000, 1.7s
+2023-02-14 20:52:06,348 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:06,349 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:07,061 - model.pytorch.supervisor - INFO - Epoch [115/250] (812) train_loss: -0.1331, l2_nll: -0.1332, l2_kld: 0.0001, val_mae: 124309.2500, lr: 0.001000, 2.0s
+2023-02-14 20:52:08,101 - model.pytorch.supervisor - INFO - Epoch [115/250] (812) test_nll: 152033.3906, test_mae: 0.3662, test_non_mae: 2898262.5000, lr: 0.001000, 2.0s
+2023-02-14 20:52:12,519 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:12,520 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:13,042 - model.pytorch.supervisor - INFO - Epoch [116/250] (819) train_loss: -0.1436, l2_nll: -0.1439, l2_kld: 0.0002, val_mae: 107375.0547, lr: 0.001000, 1.5s
+2023-02-14 20:52:13,840 - model.pytorch.supervisor - INFO - Epoch [116/250] (819) test_nll: 135722.5781, test_mae: 0.3617, test_non_mae: 2328045.5000, lr: 0.001000, 1.5s
+2023-02-14 20:52:18,061 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:18,061 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:18,650 - model.pytorch.supervisor - INFO - Epoch [117/250] (826) train_loss: -0.1548, l2_nll: -0.1549, l2_kld: 0.0002, val_mae: 123167.2109, lr: 0.001000, 1.5s
+2023-02-14 20:52:19,547 - model.pytorch.supervisor - INFO - Epoch [117/250] (826) test_nll: 202747.8594, test_mae: 0.3672, test_non_mae: 3638729.0000, lr: 0.001000, 1.5s
+2023-02-14 20:52:23,378 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:23,378 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:23,923 - model.pytorch.supervisor - INFO - Epoch [118/250] (833) train_loss: -0.1355, l2_nll: -0.1356, l2_kld: 0.0001, val_mae: 188052.8750, lr: 0.001000, 1.4s
+2023-02-14 20:52:24,842 - model.pytorch.supervisor - INFO - Epoch [118/250] (833) test_nll: 271297.2188, test_mae: 0.3851, test_non_mae: 5405978.5000, lr: 0.001000, 1.4s
+2023-02-14 20:52:28,862 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:28,863 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:29,416 - model.pytorch.supervisor - INFO - Epoch [119/250] (840) train_loss: -0.1590, l2_nll: -0.1591, l2_kld: 0.0002, val_mae: 211944.6094, lr: 0.001000, 1.4s
+2023-02-14 20:52:30,306 - model.pytorch.supervisor - INFO - Epoch [119/250] (840) test_nll: 364685.6250, test_mae: 0.4119, test_non_mae: 8055075.0000, lr: 0.001000, 1.4s
+2023-02-14 20:52:34,378 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:34,379 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:34,966 - model.pytorch.supervisor - INFO - Epoch [120/250] (847) train_loss: -0.1391, l2_nll: -0.1393, l2_kld: 0.0002, val_mae: 247368.8594, lr: 0.001000, 1.4s
+2023-02-14 20:52:35,950 - model.pytorch.supervisor - INFO - Epoch [120/250] (847) test_nll: 366445.8438, test_mae: 0.3913, test_non_mae: 8202135.5000, lr: 0.001000, 1.4s
+2023-02-14 20:52:39,767 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:39,768 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:40,345 - model.pytorch.supervisor - INFO - Epoch [121/250] (854) train_loss: -0.1436, l2_nll: -0.1438, l2_kld: 0.0002, val_mae: 100857.2734, lr: 0.001000, 1.4s
+2023-02-14 20:52:41,335 - model.pytorch.supervisor - INFO - Epoch [121/250] (854) test_nll: 124339.8438, test_mae: 0.3673, test_non_mae: 2596865.2500, lr: 0.001000, 1.4s
+2023-02-14 20:52:44,955 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:44,956 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:45,516 - model.pytorch.supervisor - INFO - Epoch [122/250] (861) train_loss: -0.1613, l2_nll: -0.1614, l2_kld: 0.0001, val_mae: 109119.8984, lr: 0.001000, 1.3s
+2023-02-14 20:52:46,428 - model.pytorch.supervisor - INFO - Epoch [122/250] (861) test_nll: 165804.9531, test_mae: 0.3658, test_non_mae: 3079722.5000, lr: 0.001000, 1.3s
+2023-02-14 20:52:50,063 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:50,064 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:50,656 - model.pytorch.supervisor - INFO - Epoch [123/250] (868) train_loss: -0.1537, l2_nll: -0.1540, l2_kld: 0.0004, val_mae: 157660.0469, lr: 0.001000, 1.4s
+2023-02-14 20:52:51,605 - model.pytorch.supervisor - INFO - Epoch [123/250] (868) test_nll: 260039.5469, test_mae: 0.3702, test_non_mae: 4154505.0000, lr: 0.001000, 1.4s
+2023-02-14 20:52:55,273 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:52:55,273 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:52:55,864 - model.pytorch.supervisor - INFO - Epoch [124/250] (875) train_loss: -0.1534, l2_nll: -0.1535, l2_kld: 0.0002, val_mae: 205290.3594, lr: 0.001000, 1.5s
+2023-02-14 20:52:56,787 - model.pytorch.supervisor - INFO - Epoch [124/250] (875) test_nll: 439509.5938, test_mae: 0.3945, test_non_mae: 7867654.5000, lr: 0.001000, 1.5s
+2023-02-14 20:53:00,621 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:00,621 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:01,207 - model.pytorch.supervisor - INFO - Epoch [125/250] (882) train_loss: -0.1530, l2_nll: -0.1532, l2_kld: 0.0002, val_mae: 204049.4688, lr: 0.001000, 1.5s
+2023-02-14 20:53:02,202 - model.pytorch.supervisor - INFO - Epoch [125/250] (882) test_nll: 413946.9688, test_mae: 0.4041, test_non_mae: 7299487.0000, lr: 0.001000, 1.5s
+2023-02-14 20:53:06,235 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:06,236 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:06,809 - model.pytorch.supervisor - INFO - Epoch [126/250] (889) train_loss: -0.1605, l2_nll: -0.1607, l2_kld: 0.0002, val_mae: 159950.5156, lr: 0.001000, 1.5s
+2023-02-14 20:53:07,725 - model.pytorch.supervisor - INFO - Epoch [126/250] (889) test_nll: 334384.6250, test_mae: 0.3833, test_non_mae: 5330242.5000, lr: 0.001000, 1.5s
+2023-02-14 20:53:11,752 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:11,752 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:12,337 - model.pytorch.supervisor - INFO - Epoch [127/250] (896) train_loss: -0.1663, l2_nll: -0.1664, l2_kld: 0.0001, val_mae: 113934.4219, lr: 0.001000, 1.5s
+2023-02-14 20:53:13,257 - model.pytorch.supervisor - INFO - Epoch [127/250] (896) test_nll: 202165.3906, test_mae: 0.3639, test_non_mae: 2904127.7500, lr: 0.001000, 1.5s
+2023-02-14 20:53:17,455 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:17,456 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:18,207 - model.pytorch.supervisor - INFO - Epoch [128/250] (903) train_loss: -0.1618, l2_nll: -0.1620, l2_kld: 0.0002, val_mae: 101894.7734, lr: 0.001000, 1.8s
+2023-02-14 20:53:19,178 - model.pytorch.supervisor - INFO - Epoch [128/250] (903) test_nll: 254768.0938, test_mae: 0.3644, test_non_mae: 3053486.5000, lr: 0.001000, 1.8s
+2023-02-14 20:53:23,792 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:23,792 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:24,400 - model.pytorch.supervisor - INFO - Epoch [129/250] (910) train_loss: -0.1602, l2_nll: -0.1604, l2_kld: 0.0002, val_mae: 104361.1484, lr: 0.001000, 1.6s
+2023-02-14 20:53:25,310 - model.pytorch.supervisor - INFO - Epoch [129/250] (910) test_nll: 215166.9062, test_mae: 0.3625, test_non_mae: 2584457.0000, lr: 0.001000, 1.6s
+2023-02-14 20:53:29,356 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:29,357 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:29,901 - model.pytorch.supervisor - INFO - Epoch [130/250] (917) train_loss: -0.1559, l2_nll: -0.1560, l2_kld: 0.0002, val_mae: 175025.6250, lr: 0.001000, 1.4s
+2023-02-14 20:53:30,917 - model.pytorch.supervisor - INFO - Epoch [130/250] (917) test_nll: 348946.6875, test_mae: 0.3870, test_non_mae: 5942430.5000, lr: 0.001000, 1.4s
+2023-02-14 20:53:34,879 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:34,880 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:35,443 - model.pytorch.supervisor - INFO - Epoch [131/250] (924) train_loss: -0.1425, l2_nll: -0.1427, l2_kld: 0.0002, val_mae: 160949.6094, lr: 0.001000, 1.4s
+2023-02-14 20:53:36,388 - model.pytorch.supervisor - INFO - Epoch [131/250] (924) test_nll: 349672.5312, test_mae: 0.3926, test_non_mae: 7187612.5000, lr: 0.001000, 1.4s
+2023-02-14 20:53:40,288 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:40,288 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:40,909 - model.pytorch.supervisor - INFO - Epoch [132/250] (931) train_loss: -0.1616, l2_nll: -0.1619, l2_kld: 0.0003, val_mae: 157199.2969, lr: 0.001000, 1.5s
+2023-02-14 20:53:41,852 - model.pytorch.supervisor - INFO - Epoch [132/250] (931) test_nll: 352760.9062, test_mae: 0.3822, test_non_mae: 5928707.5000, lr: 0.001000, 1.5s
+2023-02-14 20:53:45,774 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:45,775 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:46,409 - model.pytorch.supervisor - INFO - Epoch [133/250] (938) train_loss: -0.1856, l2_nll: -0.1858, l2_kld: 0.0002, val_mae: 110419.0156, lr: 0.001000, 1.7s
+2023-02-14 20:53:47,426 - model.pytorch.supervisor - INFO - Epoch [133/250] (938) test_nll: 269586.0312, test_mae: 0.3670, test_non_mae: 3403357.5000, lr: 0.001000, 1.7s
+2023-02-14 20:53:51,708 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:51,709 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:52,347 - model.pytorch.supervisor - INFO - Epoch [134/250] (945) train_loss: -0.1725, l2_nll: -0.1727, l2_kld: 0.0001, val_mae: 109205.9219, lr: 0.001000, 1.9s
+2023-02-14 20:53:53,401 - model.pytorch.supervisor - INFO - Epoch [134/250] (945) test_nll: 368835.0312, test_mae: 0.3659, test_non_mae: 3441195.5000, lr: 0.001000, 1.9s
+2023-02-14 20:53:58,075 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:53:58,076 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:53:58,719 - model.pytorch.supervisor - INFO - Epoch [135/250] (952) train_loss: -0.1885, l2_nll: -0.1888, l2_kld: 0.0003, val_mae: 124900.6797, lr: 0.001000, 1.8s
+2023-02-14 20:53:59,681 - model.pytorch.supervisor - INFO - Epoch [135/250] (952) test_nll: 497075.8438, test_mae: 0.3685, test_non_mae: 4046856.5000, lr: 0.001000, 1.8s
+2023-02-14 20:54:04,440 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:04,440 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:05,080 - model.pytorch.supervisor - INFO - Epoch [136/250] (959) train_loss: -0.1647, l2_nll: -0.1649, l2_kld: 0.0002, val_mae: 151479.9531, lr: 0.001000, 1.9s
+2023-02-14 20:54:06,092 - model.pytorch.supervisor - INFO - Epoch [136/250] (959) test_nll: 594617.6250, test_mae: 0.3870, test_non_mae: 5897115.5000, lr: 0.001000, 1.9s
+2023-02-14 20:54:10,219 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:10,220 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:10,989 - model.pytorch.supervisor - INFO - Epoch [137/250] (966) train_loss: -0.1606, l2_nll: -0.1608, l2_kld: 0.0002, val_mae: 199326.0469, lr: 0.001000, 1.8s
+2023-02-14 20:54:12,029 - model.pytorch.supervisor - INFO - Epoch [137/250] (966) test_nll: 518629.0625, test_mae: 0.3916, test_non_mae: 7367486.0000, lr: 0.001000, 1.8s
+2023-02-14 20:54:15,996 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:15,997 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:16,610 - model.pytorch.supervisor - INFO - Epoch [138/250] (973) train_loss: -0.1719, l2_nll: -0.1722, l2_kld: 0.0002, val_mae: 162248.6719, lr: 0.001000, 1.8s
+2023-02-14 20:54:17,563 - model.pytorch.supervisor - INFO - Epoch [138/250] (973) test_nll: 409050.8750, test_mae: 0.3869, test_non_mae: 6718910.0000, lr: 0.001000, 1.8s
+2023-02-14 20:54:21,626 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:21,627 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:22,221 - model.pytorch.supervisor - INFO - Epoch [139/250] (980) train_loss: -0.1785, l2_nll: -0.1786, l2_kld: 0.0001, val_mae: 94178.5703, lr: 0.001000, 1.6s
+2023-02-14 20:54:23,121 - model.pytorch.supervisor - INFO - Epoch [139/250] (980) test_nll: 215842.3750, test_mae: 0.3657, test_non_mae: 3103090.7500, lr: 0.001000, 1.6s
+2023-02-14 20:54:27,098 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:27,098 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:27,677 - model.pytorch.supervisor - INFO - Epoch [140/250] (987) train_loss: -0.1833, l2_nll: -0.1835, l2_kld: 0.0001, val_mae: 105856.6016, lr: 0.001000, 1.5s
+2023-02-14 20:54:28,590 - model.pytorch.supervisor - INFO - Epoch [140/250] (987) test_nll: 335482.9062, test_mae: 0.3699, test_non_mae: 4238855.0000, lr: 0.001000, 1.5s
+2023-02-14 20:54:32,779 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:32,781 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:33,349 - model.pytorch.supervisor - INFO - Epoch [141/250] (994) train_loss: -0.1608, l2_nll: -0.1608, l2_kld: 0.0001, val_mae: 122114.7891, lr: 0.001000, 1.5s
+2023-02-14 20:54:34,242 - model.pytorch.supervisor - INFO - Epoch [141/250] (994) test_nll: 396286.2188, test_mae: 0.3701, test_non_mae: 5411458.0000, lr: 0.001000, 1.5s
+2023-02-14 20:54:38,396 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:38,397 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:38,946 - model.pytorch.supervisor - INFO - Epoch [142/250] (1001) train_loss: -0.1822, l2_nll: -0.1824, l2_kld: 0.0001, val_mae: 186137.5938, lr: 0.001000, 1.4s
+2023-02-14 20:54:39,826 - model.pytorch.supervisor - INFO - Epoch [142/250] (1001) test_nll: 590961.0000, test_mae: 0.3882, test_non_mae: 8524828.0000, lr: 0.001000, 1.4s
+2023-02-14 20:54:43,775 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:43,775 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:44,332 - model.pytorch.supervisor - INFO - Epoch [143/250] (1008) train_loss: -0.1867, l2_nll: -0.1869, l2_kld: 0.0002, val_mae: 159920.9844, lr: 0.001000, 1.4s
+2023-02-14 20:54:45,249 - model.pytorch.supervisor - INFO - Epoch [143/250] (1008) test_nll: 642370.6875, test_mae: 0.3943, test_non_mae: 7662242.0000, lr: 0.001000, 1.4s
+2023-02-14 20:54:49,036 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:49,036 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:49,570 - model.pytorch.supervisor - INFO - Epoch [144/250] (1015) train_loss: -0.1755, l2_nll: -0.1756, l2_kld: 0.0001, val_mae: 141966.9844, lr: 0.001000, 1.4s
+2023-02-14 20:54:50,554 - model.pytorch.supervisor - INFO - Epoch [144/250] (1015) test_nll: 549449.0625, test_mae: 0.3785, test_non_mae: 6099277.0000, lr: 0.001000, 1.4s
+2023-02-14 20:54:54,251 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:54,252 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:54:54,820 - model.pytorch.supervisor - INFO - Epoch [145/250] (1022) train_loss: -0.1968, l2_nll: -0.1969, l2_kld: 0.0001, val_mae: 103090.7109, lr: 0.001000, 1.4s
+2023-02-14 20:54:55,765 - model.pytorch.supervisor - INFO - Epoch [145/250] (1022) test_nll: 430739.3750, test_mae: 0.3641, test_non_mae: 3614917.7500, lr: 0.001000, 1.4s
+2023-02-14 20:54:59,531 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:54:59,532 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:00,067 - model.pytorch.supervisor - INFO - Epoch [146/250] (1029) train_loss: -0.1884, l2_nll: -0.1886, l2_kld: 0.0002, val_mae: 88995.8125, lr: 0.001000, 1.3s
+2023-02-14 20:55:00,979 - model.pytorch.supervisor - INFO - Epoch [146/250] (1029) test_nll: 515167.7188, test_mae: 0.3621, test_non_mae: 3637106.2500, lr: 0.001000, 1.3s
+2023-02-14 20:55:04,752 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:04,753 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:05,340 - model.pytorch.supervisor - INFO - Epoch [147/250] (1036) train_loss: -0.1687, l2_nll: -0.1688, l2_kld: 0.0002, val_mae: 88325.5625, lr: 0.001000, 1.4s
+2023-02-14 20:55:06,262 - model.pytorch.supervisor - INFO - Epoch [147/250] (1036) test_nll: 391280.8438, test_mae: 0.3625, test_non_mae: 3339570.0000, lr: 0.001000, 1.4s
+2023-02-14 20:55:10,073 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:10,074 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:10,791 - model.pytorch.supervisor - INFO - Epoch [148/250] (1043) train_loss: -0.1810, l2_nll: -0.1812, l2_kld: 0.0002, val_mae: 126589.4922, lr: 0.001000, 1.5s
+2023-02-14 20:55:11,777 - model.pytorch.supervisor - INFO - Epoch [148/250] (1043) test_nll: 479268.9062, test_mae: 0.3817, test_non_mae: 5964933.0000, lr: 0.001000, 1.5s
+2023-02-14 20:55:15,410 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:15,410 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:15,934 - model.pytorch.supervisor - INFO - Epoch [149/250] (1050) train_loss: -0.1824, l2_nll: -0.1825, l2_kld: 0.0001, val_mae: 146881.8906, lr: 0.001000, 1.4s
+2023-02-14 20:55:16,821 - model.pytorch.supervisor - INFO - Epoch [149/250] (1050) test_nll: 521844.6562, test_mae: 0.3872, test_non_mae: 7908219.0000, lr: 0.001000, 1.4s
+2023-02-14 20:55:21,034 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:21,035 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:21,634 - model.pytorch.supervisor - INFO - Epoch [150/250] (1057) train_loss: -0.2101, l2_nll: -0.2102, l2_kld: 0.0002, val_mae: 130219.9219, lr: 0.001000, 1.6s
+2023-02-14 20:55:22,616 - model.pytorch.supervisor - INFO - Epoch [150/250] (1057) test_nll: 508071.4062, test_mae: 0.3795, test_non_mae: 6727965.5000, lr: 0.001000, 1.6s
+2023-02-14 20:55:26,696 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:26,696 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:27,330 - model.pytorch.supervisor - INFO - Epoch [151/250] (1064) train_loss: -0.2057, l2_nll: -0.2058, l2_kld: 0.0001, val_mae: 96938.1406, lr: 0.001000, 1.8s
+2023-02-14 20:55:28,261 - model.pytorch.supervisor - INFO - Epoch [151/250] (1064) test_nll: 543932.1250, test_mae: 0.3655, test_non_mae: 4724958.0000, lr: 0.001000, 1.8s
+2023-02-14 20:55:32,561 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:32,562 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:33,164 - model.pytorch.supervisor - INFO - Epoch [152/250] (1071) train_loss: -0.1967, l2_nll: -0.1968, l2_kld: 0.0001, val_mae: 92939.7812, lr: 0.001000, 1.7s
+2023-02-14 20:55:34,052 - model.pytorch.supervisor - INFO - Epoch [152/250] (1071) test_nll: 533805.0000, test_mae: 0.3649, test_non_mae: 3918153.2500, lr: 0.001000, 1.7s
+2023-02-14 20:55:38,287 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:38,287 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:38,873 - model.pytorch.supervisor - INFO - Epoch [153/250] (1078) train_loss: -0.2011, l2_nll: -0.2012, l2_kld: 0.0001, val_mae: 146642.4375, lr: 0.001000, 1.5s
+2023-02-14 20:55:39,743 - model.pytorch.supervisor - INFO - Epoch [153/250] (1078) test_nll: 1052460.6250, test_mae: 0.3842, test_non_mae: 7725909.0000, lr: 0.001000, 1.5s
+2023-02-14 20:55:43,950 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:43,951 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:44,506 - model.pytorch.supervisor - INFO - Epoch [154/250] (1085) train_loss: -0.2269, l2_nll: -0.2270, l2_kld: 0.0002, val_mae: 100798.3203, lr: 0.001000, 1.4s
+2023-02-14 20:55:45,453 - model.pytorch.supervisor - INFO - Epoch [154/250] (1085) test_nll: 819941.1875, test_mae: 0.3666, test_non_mae: 4700118.0000, lr: 0.001000, 1.4s
+2023-02-14 20:55:49,289 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:49,290 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:49,841 - model.pytorch.supervisor - INFO - Epoch [155/250] (1092) train_loss: -0.2236, l2_nll: -0.2236, l2_kld: 0.0001, val_mae: 126207.3125, lr: 0.001000, 1.4s
+2023-02-14 20:55:50,758 - model.pytorch.supervisor - INFO - Epoch [155/250] (1092) test_nll: 1047172.1250, test_mae: 0.3701, test_non_mae: 6121823.5000, lr: 0.001000, 1.4s
+2023-02-14 20:55:54,404 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:54,405 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:55:54,917 - model.pytorch.supervisor - INFO - Epoch [156/250] (1099) train_loss: -0.2251, l2_nll: -0.2252, l2_kld: 0.0001, val_mae: 136802.6875, lr: 0.001000, 1.3s
+2023-02-14 20:55:55,866 - model.pytorch.supervisor - INFO - Epoch [156/250] (1099) test_nll: 1373783.7500, test_mae: 0.3759, test_non_mae: 6965522.0000, lr: 0.001000, 1.3s
+2023-02-14 20:55:59,777 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:55:59,777 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:00,408 - model.pytorch.supervisor - INFO - Epoch [157/250] (1106) train_loss: -0.2409, l2_nll: -0.2410, l2_kld: 0.0001, val_mae: 122921.0156, lr: 0.001000, 1.5s
+2023-02-14 20:56:01,428 - model.pytorch.supervisor - INFO - Epoch [157/250] (1106) test_nll: 1316960.0000, test_mae: 0.3770, test_non_mae: 6426180.0000, lr: 0.001000, 1.5s
+2023-02-14 20:56:05,367 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:05,367 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:05,932 - model.pytorch.supervisor - INFO - Epoch [158/250] (1113) train_loss: -0.2222, l2_nll: -0.2223, l2_kld: 0.0002, val_mae: 108402.8438, lr: 0.001000, 1.5s
+2023-02-14 20:56:06,845 - model.pytorch.supervisor - INFO - Epoch [158/250] (1113) test_nll: 1121266.6250, test_mae: 0.3639, test_non_mae: 4939354.0000, lr: 0.001000, 1.5s
+2023-02-14 20:56:10,866 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:10,866 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:11,458 - model.pytorch.supervisor - INFO - Epoch [159/250] (1120) train_loss: -0.2306, l2_nll: -0.2308, l2_kld: 0.0001, val_mae: 98584.0156, lr: 0.001000, 1.6s
+2023-02-14 20:56:12,415 - model.pytorch.supervisor - INFO - Epoch [159/250] (1120) test_nll: 1153535.0000, test_mae: 0.3659, test_non_mae: 5017268.0000, lr: 0.001000, 1.6s
+2023-02-14 20:56:16,923 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:16,924 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:17,549 - model.pytorch.supervisor - INFO - Epoch [160/250] (1127) train_loss: -0.2422, l2_nll: -0.2423, l2_kld: 0.0002, val_mae: 124585.7266, lr: 0.001000, 1.6s
+2023-02-14 20:56:18,475 - model.pytorch.supervisor - INFO - Epoch [160/250] (1127) test_nll: 1362412.0000, test_mae: 0.3741, test_non_mae: 5999307.0000, lr: 0.001000, 1.6s
+2023-02-14 20:56:22,635 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:22,636 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:23,220 - model.pytorch.supervisor - INFO - Epoch [161/250] (1134) train_loss: -0.2127, l2_nll: -0.2129, l2_kld: 0.0002, val_mae: 110471.2188, lr: 0.001000, 1.5s
+2023-02-14 20:56:24,118 - model.pytorch.supervisor - INFO - Epoch [161/250] (1134) test_nll: 1416353.8750, test_mae: 0.3710, test_non_mae: 5799886.5000, lr: 0.001000, 1.5s
+2023-02-14 20:56:28,133 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:28,135 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:28,687 - model.pytorch.supervisor - INFO - Epoch [162/250] (1141) train_loss: -0.2176, l2_nll: -0.2179, l2_kld: 0.0003, val_mae: 100979.1797, lr: 0.001000, 1.4s
+2023-02-14 20:56:29,594 - model.pytorch.supervisor - INFO - Epoch [162/250] (1141) test_nll: 1338486.7500, test_mae: 0.3712, test_non_mae: 4549453.5000, lr: 0.001000, 1.4s
+2023-02-14 20:56:33,940 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:33,941 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:34,506 - model.pytorch.supervisor - INFO - Epoch [163/250] (1148) train_loss: -0.2272, l2_nll: -0.2274, l2_kld: 0.0002, val_mae: 82601.5078, lr: 0.001000, 1.5s
+2023-02-14 20:56:35,462 - model.pytorch.supervisor - INFO - Epoch [163/250] (1148) test_nll: 1259785.0000, test_mae: 0.3640, test_non_mae: 3827974.0000, lr: 0.001000, 1.5s
+2023-02-14 20:56:39,894 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:39,894 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:40,511 - model.pytorch.supervisor - INFO - Epoch [164/250] (1155) train_loss: -0.2404, l2_nll: -0.2406, l2_kld: 0.0001, val_mae: 103443.6250, lr: 0.001000, 1.7s
+2023-02-14 20:56:41,476 - model.pytorch.supervisor - INFO - Epoch [164/250] (1155) test_nll: 1629798.6250, test_mae: 0.3757, test_non_mae: 5089177.5000, lr: 0.001000, 1.7s
+2023-02-14 20:56:45,618 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:45,619 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:46,276 - model.pytorch.supervisor - INFO - Epoch [165/250] (1162) train_loss: -0.2230, l2_nll: -0.2232, l2_kld: 0.0002, val_mae: 112279.7734, lr: 0.001000, 1.8s
+2023-02-14 20:56:47,230 - model.pytorch.supervisor - INFO - Epoch [165/250] (1162) test_nll: 1793419.1250, test_mae: 0.3645, test_non_mae: 5593210.5000, lr: 0.001000, 1.8s
+2023-02-14 20:56:51,491 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:51,491 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:52,104 - model.pytorch.supervisor - INFO - Epoch [166/250] (1169) train_loss: -0.2496, l2_nll: -0.2497, l2_kld: 0.0002, val_mae: 119109.8672, lr: 0.001000, 1.6s
+2023-02-14 20:56:53,005 - model.pytorch.supervisor - INFO - Epoch [166/250] (1169) test_nll: 2081609.8750, test_mae: 0.3725, test_non_mae: 6434171.0000, lr: 0.001000, 1.6s
+2023-02-14 20:56:57,170 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:56:57,172 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:56:57,738 - model.pytorch.supervisor - INFO - Epoch [167/250] (1176) train_loss: -0.2343, l2_nll: -0.2345, l2_kld: 0.0001, val_mae: 101811.7969, lr: 0.001000, 1.4s
+2023-02-14 20:56:58,651 - model.pytorch.supervisor - INFO - Epoch [167/250] (1176) test_nll: 1601375.5000, test_mae: 0.3711, test_non_mae: 4985046.5000, lr: 0.001000, 1.4s
+2023-02-14 20:57:03,173 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:03,174 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:03,812 - model.pytorch.supervisor - INFO - Epoch [168/250] (1183) train_loss: -0.2391, l2_nll: -0.2393, l2_kld: 0.0001, val_mae: 81579.6406, lr: 0.001000, 1.6s
+2023-02-14 20:57:04,740 - model.pytorch.supervisor - INFO - Epoch [168/250] (1183) test_nll: 1283419.6250, test_mae: 0.3671, test_non_mae: 3893415.0000, lr: 0.001000, 1.6s
+2023-02-14 20:57:09,236 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:09,237 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:09,813 - model.pytorch.supervisor - INFO - Epoch [169/250] (1190) train_loss: -0.2174, l2_nll: -0.2175, l2_kld: 0.0001, val_mae: 86512.5781, lr: 0.001000, 1.5s
+2023-02-14 20:57:10,798 - model.pytorch.supervisor - INFO - Epoch [169/250] (1190) test_nll: 1231256.2500, test_mae: 0.3667, test_non_mae: 4179794.5000, lr: 0.001000, 1.5s
+2023-02-14 20:57:15,028 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:15,028 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:15,801 - model.pytorch.supervisor - INFO - Epoch [170/250] (1197) train_loss: -0.2473, l2_nll: -0.2475, l2_kld: 0.0002, val_mae: 95672.9219, lr: 0.001000, 1.9s
+2023-02-14 20:57:16,823 - model.pytorch.supervisor - INFO - Epoch [170/250] (1197) test_nll: 1590250.1250, test_mae: 0.3678, test_non_mae: 5141532.0000, lr: 0.001000, 1.9s
+2023-02-14 20:57:21,672 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:21,673 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:22,450 - model.pytorch.supervisor - INFO - Epoch [171/250] (1204) train_loss: -0.2435, l2_nll: -0.2437, l2_kld: 0.0002, val_mae: 90157.0938, lr: 0.001000, 2.1s
+2023-02-14 20:57:23,581 - model.pytorch.supervisor - INFO - Epoch [171/250] (1204) test_nll: 1539562.8750, test_mae: 0.3636, test_non_mae: 4123997.7500, lr: 0.001000, 2.1s
+2023-02-14 20:57:28,228 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:28,229 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:28,920 - model.pytorch.supervisor - INFO - Epoch [172/250] (1211) train_loss: -0.2184, l2_nll: -0.2186, l2_kld: 0.0002, val_mae: 94273.4297, lr: 0.001000, 1.8s
+2023-02-14 20:57:29,838 - model.pytorch.supervisor - INFO - Epoch [172/250] (1211) test_nll: 1811138.2500, test_mae: 0.3616, test_non_mae: 5213783.0000, lr: 0.001000, 1.8s
+2023-02-14 20:57:34,277 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 20:57:34,278 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 20:57:34,862 - model.pytorch.supervisor - INFO - Epoch [173/250] (1218) train_loss: -0.2344, l2_nll: -0.2346, l2_kld: 0.0002, val_mae: 112393.5859, lr: 0.001000, 1.6s
+2023-02-14 20:57:35,811 - model.pytorch.supervisor - INFO - Epoch [173/250] (1218) test_nll: 1847941.8750, test_mae: 0.3770, test_non_mae: 6685749.0000, lr: 0.001000, 1.6s

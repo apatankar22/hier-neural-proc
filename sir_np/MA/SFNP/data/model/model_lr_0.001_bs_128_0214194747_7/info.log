@@ -1,0 +1,25 @@
+2023-02-14 19:47:47,871 - model.pytorch.supervisor - INFO - Log directory: data/model/model_lr_0.001_bs_128_0214194747_7/
+2023-02-14 19:47:50,218 - model.pytorch.supervisor - INFO - Model created
+2023-02-14 19:47:50,219 - model.pytorch.supervisor - INFO - Start training ...
+2023-02-14 19:47:50,219 - model.pytorch.supervisor - INFO - num_batches:7
+2023-02-14 19:47:52,908 - model.pytorch.supervisor - INFO - Total trainable parameters 32360
+2023-02-14 19:47:53,957 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 19:47:53,958 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 19:47:54,483 - model.pytorch.supervisor - INFO - Epoch [0/250] (7) train_loss: 12.3836, l2_nll: 12.3836, l2_kld: 0.0000, val_mae: 274.8926, lr: 0.001000, 1.8s
+2023-02-14 19:47:55,461 - model.pytorch.supervisor - INFO - Epoch [0/250] (7) test_nll: 10.8985, test_mae: 3.4665, test_non_mae: 341.9219, lr: 0.001000, 1.8s
+2023-02-14 19:47:55,462 - model.pytorch.supervisor - INFO - Val loss decrease from inf to 274.8926.
+2023-02-14 19:47:58,586 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 19:47:58,586 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 19:47:59,119 - model.pytorch.supervisor - INFO - Epoch [1/250] (14) train_loss: 11.8452, l2_nll: 11.8452, l2_kld: 0.0000, val_mae: 274.8348, lr: 0.001000, 1.4s
+2023-02-14 19:48:00,120 - model.pytorch.supervisor - INFO - Epoch [1/250] (14) test_nll: 10.3011, test_mae: 3.4176, test_non_mae: 341.8636, lr: 0.001000, 1.4s
+2023-02-14 19:48:00,121 - model.pytorch.supervisor - INFO - Val loss decrease from 274.8926 to 274.8348.
+2023-02-14 19:48:03,157 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 19:48:03,158 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 19:48:03,698 - model.pytorch.supervisor - INFO - Epoch [2/250] (21) train_loss: 10.9159, l2_nll: 10.9159, l2_kld: 0.0000, val_mae: 274.6921, lr: 0.001000, 1.4s
+2023-02-14 19:48:04,620 - model.pytorch.supervisor - INFO - Epoch [2/250] (21) test_nll: 9.1652, test_mae: 3.3117, test_non_mae: 341.7210, lr: 0.001000, 1.4s
+2023-02-14 19:48:04,620 - model.pytorch.supervisor - INFO - Val loss decrease from 274.8348 to 274.6921.
+2023-02-14 19:48:08,031 - model.pytorch.supervisor - INFO - epoch complete
+2023-02-14 19:48:08,032 - model.pytorch.supervisor - INFO - evaluating now!
+2023-02-14 19:48:08,603 - model.pytorch.supervisor - INFO - Epoch [3/250] (28) train_loss: 9.2566, l2_nll: 9.2566, l2_kld: 0.0000, val_mae: 274.1834, lr: 0.001000, 1.6s
+2023-02-14 19:48:09,564 - model.pytorch.supervisor - INFO - Epoch [3/250] (28) test_nll: 6.8931, test_mae: 3.0300, test_non_mae: 341.2091, lr: 0.001000, 1.6s
+2023-02-14 19:48:09,564 - model.pytorch.supervisor - INFO - Val loss decrease from 274.6921 to 274.1834.
