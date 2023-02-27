@@ -1,5 +1,5 @@
 
-# Capstone Project (DSC 180B): Active Learning for Age-Stratified Epidemiology Modeling 
+# Capstone Project (DSC 180B): [Active Learning for Age-Stratified Epidemiology Modeling](http://apatankar22.github.io/hier-neural-proc/)
 Authors: Amogh Patankar <br>
 Mentors: Rose Yu, Yian Ma
 
