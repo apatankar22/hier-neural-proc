@@ -1,5 +1,5 @@
 
-# Active Learning for Age-Stratified Epidemiology Modeling 
+# Capstone Project (DSC 180B): Active Learning for Age-Stratified Epidemiology Modeling 
 Authors: Amogh Patankar <br>
 Mentors: Rose Yu, Yian Ma
 
