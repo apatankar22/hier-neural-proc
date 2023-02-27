@@ -14,7 +14,7 @@ Neural processes are designed for single-fidelity data, but through research in 
 Active learning determines which training data to train on next via a reward function, further improving training convergence and stability. This project explores the possibilities of extending active learning on multi-fidelity neural processes to improve accuracy, training time, and simulation cost.
 
 # Data
-Describe Data here
+The data used for this project contains roughly 7000 high-dimensional complex simulations for the epidemiology modeling task at hand. The data stored is broken up into 109 different scenarios across different locations in the United States, Europe, and China, that is collected through macro and micro polls data. The low-fidelity data that is used contains an aggregation of data across 18 different age groups, while the high-fidelity data contains 85 different age groups.
 
 # Models
 Describe Models utilized here
