@@ -4,7 +4,7 @@
 -->
 
 # Abstract/Motivation
- some abstract based on the paper about [Multi-Fidelity Hierarchical Neural Processes](https://arxiv.org/pdf/2206.04872.pdf). 
+ some abstract based on the paper about [Multi-Fidelity Hierarchical Neural Processes](https://arxiv.org/pdf/2206.04872.pdf) and additional work done!
 
 
 # Data
