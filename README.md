@@ -3,6 +3,4 @@
 Authors: Amogh Patankar <br>
 Mentors: Rose Yu, Yian Ma
 
-## Abstract:
-
 ## [SIR Neural Process and Gaussian Process Data](https://drive.google.com/drive/folders/1osXBkuDuzSmB8__2r3lLoOLHIXqju3G2)
