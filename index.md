@@ -9,7 +9,7 @@ For simulations in different fields such as climatology and epidemiology, models
 
 Gaussian processes are models defining probability distributions over various functions. This leads to a data efficient and flexible solution; however, they are fairly computationally expensive. Neural processes improve on Gaussian processes by adapting the “priors” to data, and in turn improve model accuracy and reduce computation.  
 
-Neural processes are designed for single-fidelity data, but through research in multi-fidelity neural processes, as seen [here](https://arxiv.org/pdf/2206.04872.pdf) we achieve cheaper simulation costs and better predictions.
+Neural processes are designed for single-fidelity data, but through research in multi-fidelity neural processes, as shown by Wu et. al. \[1\], we achieve cheaper simulation costs and better predictions.
 
 Active learning determines which training data to train on next via a reward function, further improving training convergence and stability. This project explores the possibilities of extending active learning on multi-fidelity neural processes to improve accuracy, training time, and simulation cost.
 
