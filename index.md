@@ -29,5 +29,7 @@ Describe results + observations here
 
 # References
 \[1\] Dongxia Wu, Matteo Chinazzi, Alessandro Vespignani, Yi-An Ma, and Rose Yu. 2022. [Multi-fidelity Hierarchical Neural Processes](https://par.nsf.gov/servlets/purl/10347794). In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’22), August 14–18, 2022, Washington, DC, USA. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3534678.3539364
+
 \[2\] Wu, D., Niu, R., Chinazzi, M., Vespignani, A., Ma, Y. A., & Yu, R. (2021). [Deep Bayesian Active Learning for Accelerating Stochastic Simulation](https://arxiv.org/pdf/2106.02770.pdf). arXiv preprint arXiv:2106.02770. 
+
 \[3\] Garnelo, M., Schwarz, J., Rosenbaum, D., Viola, F., Rezende, D. J., Eslami, S. M., & Teh, Y. W. (2018). [Neural processes](https://arxiv.org/pdf/1807.01622.pdf). arXiv preprint arXiv:1807.01622.
