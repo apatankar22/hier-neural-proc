@@ -2,3 +2,4 @@
 *.tar
 *.npy
 *.DS_Store
+*.pyc
