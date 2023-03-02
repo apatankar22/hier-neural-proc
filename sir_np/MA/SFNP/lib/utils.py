@@ -1,11 +1,10 @@
 import logging
 import numpy as np
 import os
-import scipy.sparse as sp
+#import scipy.sparse as sp
 import sys
 import tensorflow as tf
 import random
-from scipy.sparse import linalg
 
 class DataLoader(object):
     def __init__(self, xs, ys, adj_mxs, batch_size, pad_with_last_sample=True, shuffle=False, p_larger_size=None):

@@ -1,16 +1,13 @@
 import numpy as np
 
 
+data_path = "sir_np/test_data/test.npz"
 
-x_path = "../data/test_data/inputs_2003_01_01-00.npy"
-y_path = "../data/test_data/outputs_2003_01_01-00.npy"
+data = np.load(data_path)
+conv_data = dict()
+conv_data["x"] = data["x"]
 
-x = np.load(x_path)
-y = np.load(y_path)
 
-print("Sample X shape:", x.shape)
-print("Sample Y shape:", y.shape)
-
+print("Sample Data shape:", conv_data["x"].shape)
 print("Test runs successfully!")
 
-print("Future works: integrate active learning with SFNP and MFNP.")
