@@ -3,7 +3,11 @@ import sys
 
 def main(targets):
     if 'test' in targets:
-        data_path = "test-data.npz"
+        data_path = "data/test-data.npz"
+    
+    else:
+        print("add the test target next time!")
+        exit()
 
     data = np.load(data_path)
     conv_data = dict()
