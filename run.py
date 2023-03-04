@@ -1,5 +1,5 @@
-import numpy as np
 import sys
+import numpy as np
 
 def main(targets):
     if 'test' in targets:
