@@ -1,0 +1,4 @@
+2023-03-04 19:48:11,928 - model.pytorch.supervisor - INFO - Log directory: data/model/model_lr_0.001_bs_128_0304194811_32/
+2023-03-04 19:48:13,661 - model.pytorch.supervisor - INFO - Model created
+2023-03-04 19:48:13,662 - model.pytorch.supervisor - INFO - Start training ...
+2023-03-04 19:48:13,662 - model.pytorch.supervisor - INFO - num_batches:7

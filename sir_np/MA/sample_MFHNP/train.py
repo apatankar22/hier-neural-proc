@@ -16,7 +16,7 @@ def main(args):
     random_seed = random.sample(range(0, 100), 3)
     for i in range(3):
         with open(args.config_filename) as f:
-            supervisor_config = yaml.load(f)
+            supervisor_config = yaml.load(f, Loader=yaml.FullLoader)
             supervisor = Supervisor(random_seed=random_seed[i], **supervisor_config)
             supervisor.train()
 

@@ -328,14 +328,14 @@ class Supervisor:
 
             elif val_loss >= min_val_loss:
                 wait += 1
-                if wait == patience:
+                '''if wait == patience:
                     model_file_name = self.save_model(saved_epoch, saved_l1_z_total, saved_l2_z_total, saved_outputs, saved_model, saved_val_nll, saved_nll, saved_mae, saved_non_mae)
 
                     self._logger.info(
                         'Final Val loss {:.4f}, Test NLL loss {:.4f}, Test MAE loss {:.4f}, Test Non MAE loss {:.4f}, '
                         'saving to {}'.format(saved_val_nll, saved_nll, saved_mae, saved_non_mae, model_file_name))
                     self._logger.warning('Early stopping at epoch: %d' % epoch_num)
-                    break
+                    break'''
 
             if epoch_num == epochs-1:
                 model_file_name = self.save_model(saved_epoch, saved_l1_z_total, saved_l2_z_total, saved_outputs, saved_model, saved_val_nll, saved_nll, saved_mae, saved_non_mae)
