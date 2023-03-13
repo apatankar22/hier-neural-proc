@@ -20,6 +20,6 @@ WORKDIR /hier-neural-proc
 
 # # Set the default command to run when the container starts
 ENTRYPOINT [ "conda", "run", "-n", "torch"]
-WORKDIR /hier-neural-proc
+WORKDIR /hier-neural-proc/src
 CMD ["python", "run.py", "test"]
 # CMD ["conda", "run", "-n", "torch", "python", "main.py"]
