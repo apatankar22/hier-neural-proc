@@ -5,13 +5,9 @@
 
 # Abstract/Motivation
 
-For simulations in different fields such as climatology and epidemiology, models can learn complex systems very accurately, with immense processing power and huge amounts of storage. 
+For simulations in different fields such as climatology and epidemiology, models can learn complex systems very accurately, with immense processing power and huge amounts of storage. These various models use input-output relationships; inputs can range from virus and disease characteristics like severity and transmissibility (in the case of epidemiology modeling) to behavioral responses (changes in contact rates). Outputs of such models describe the evolutions of the inputs and tasks, such as a time series representation of a particular virus. 
 
-Gaussian processes are models defining probability distributions over various functions. This leads to a data efficient and flexible solution; however, they are fairly computationally expensive. Neural processes improve on Gaussian processes by adapting the “priors” to data, and in turn improve model accuracy and reduce computation.  
-
-Neural processes are designed for single-fidelity data, but through research in multi-fidelity neural processes, as shown by Wu et. al. \[1\], we achieve cheaper simulation costs and better predictions.
-
-Active learning determines which training data to train on next via a reward function, further improving training convergence and stability. This project explores the possibilities of extending active learning on multi-fidelity neural processes to improve accuracy, training time, and simulation cost.
+While using models like neural processes, a type of model used to define probability distributions in conjunction with multi-fidelity data gives us fairly flexible and efficient solutions, they are incredibly computationally expensive. This project introduces active learning to these modeling tasks; active learning is a technique that determines which training data to train on next via a reward function, further improving model stability. This project explores the possibilities of using active learning on various models to improve accuracy and in turn provide a better method of epidemiology modeling with time series data. 
 
 # Data
 The data used for this project contains roughly 7000 high-dimensional complex simulations for the epidemiology modeling task at hand. The data stored is broken up into 109 different scenarios across different locations in the United States, Europe, and China, that is collected through macro and micro polls data. The low-fidelity data that is used contains an aggregation of data across 18 different age groups, while the high-fidelity data contains 85 different age groups.
