@@ -27,10 +27,10 @@ The image above shows the single-fidelity neural process graph (left), as well a
 
 # Methods
 * Acquition Functions
-     _ Low Level Mean
-          _ This aquisition function uses the low-level mean of the latent variables in order to infer z<sub>h</sub>. For every parameter θ, we generate a set of predictions; hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the low-level-mean by averaging the mean μ<sub>t,d</sub>.
-     _ Maximum Mean Standard Deviation
-          _ This aquisition function generates a set of predictions for each parameter θ, hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the maximum mean standard deviation by averaging the standard deviations (σ<sub>t,d</sub>) across all time steps in T and all dimensions in D.
+     - Low Level Mean
+          - This aquisition function uses the low-level mean of the latent variables in order to infer z<sub>h</sub>. For every parameter θ, we generate a set of predictions; hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the low-level-mean by averaging the mean μ<sub>t,d</sub>.
+     - Maximum Mean Standard Deviation
+          - This aquisition function generates a set of predictions for each parameter θ, hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the maximum mean standard deviation by averaging the standard deviations (σ<sub>t,d</sub>) across all time steps in T and all dimensions in D.
 
 # Results
 <img src="assets/img/AL_graph.png" class="img-responsive" alt="">
