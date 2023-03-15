@@ -1,6 +1,6 @@
-title: Active Learning for Age-Stratified Epidemiology Modeling 
+title: Active Learning with Neural Processes for Epidemiology Modeling
 author: "Amogh Patankar"
-description: A comparsion between single-fidelity and multi-fidelity modeling of AS-SIR epidemiology modeling using active learning.
+description:  Improving multi-fidelity epidemiology modeling with neural processes and active learning. 
 github:
   repository_url: https://github.com/apatankar22/hier-neural-proc/tree/main
 theme: jekyll-theme-cayman
