@@ -20,7 +20,7 @@ Describe methods used (specifically acquisition functions + others
 ) here
 
 # Results
-<alt="AL_graph" src="assets/img/AL_graph.png">
+<img src="assets/img/AL_graph.png" class="img-responsive" alt=""> </div>
 
 
 # Miscallenous
