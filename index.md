@@ -26,7 +26,7 @@ This project was heavily dependent on neural processes, as it was the primary mo
 The image above shows the single-fidelity neural process graph (left), as well as the multi-fidelity hierarchical neural process graph (right). The graph in the middle corresponds to the multi-fidelity neural process, which is not directly relevant to this project.
 
 # Methods
-*Acquition Functions
+* Acquition Functions
               * Low Level Mean
                   * This aquisition function uses the low-level mean of the latent variables in order to infer z<sub>h</sub>. For every parameter θ, we generate a set of predictions; hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the low-level-mean by averaging the mean μ<sub>t,d</sub>.
               * Maximum Mean Standard Deviation
