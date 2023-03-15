@@ -1,25 +1,17 @@
-# Use the official Miniconda3 image as the base image
-FROM continuumio/miniconda3
+ARG BASE_CONTAINER=ucsdets/datahub-base-notebook:2022.3-stable
 
-# Copy the current directory contents into the container at /app
-# COPY . .
+FROM $BASE_CONTAINER
 
-# # Create a new Conda environment with Python 3
-RUN conda create -n torch python=3.10
+LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 
-# # Activate the Conda environment
-SHELL ["conda", "run", "-n", "torch", "/bin/bash", "-c"]
+USER root
 
-# # Install PyTorch and torchvision
-RUN conda install numpy -y
+RUN apt update
+RUN apt-get -y install aria2 nmap traceroute
+RUN pip install --no-cache-dir babypandas geopandas matplotlib pandas numpy scipy scikit-learn seaborn torch torchvision dill pyyaml statsmodels
 
-RUN git clone https://github.com/apatankar22/hier-neural-proc.git
 
-# Set the working directory to /app
-WORKDIR /hier-neural-proc
+# Override command to disable running jupyter notebook at launch
+CMD ["/bin/bash"]
 
-# # Set the default command to run when the container starts
-ENTRYPOINT [ "conda", "run", "-n", "torch"]
-WORKDIR /hier-neural-proc/src
-CMD ["python", "run.py", "test"]
-# CMD ["conda", "run", "-n", "torch", "python", "main.py"]
+
