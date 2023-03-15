@@ -20,7 +20,8 @@ Describe methods used (specifically acquisition functions + others
 ) here
 
 # Results
-<img width="708" alt="AL_graph" src="https://github.com/apatankar22/hier-neural-proc/blob/main/assets/img/AL_graph.png">
+<alt="AL_graph" src="assets/img/AL_graph.png">
+
 
 # Miscallenous
 
