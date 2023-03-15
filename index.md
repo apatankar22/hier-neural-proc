@@ -16,10 +16,11 @@ The data used for this project contains roughly 7000 high-dimensional complex si
 Describe Models utilized here
 
 # Methods
-Describe methods used (specifically acquisition functions + others) here
+Describe methods used (specifically acquisition functions + others
+) here
 
 # Results
-![Single Random Scenario Comparisons]([http://url/to/img.png](https://github.com/apatankar22/hier-neural-proc/blob/main/assets/img/AL_graph.png))
+<img width="708" alt="AL_graph" src="https://github.com/apatankar22/hier-neural-proc/blob/main/assets/img/AL_graph.png">
 
 # Miscallenous
 
