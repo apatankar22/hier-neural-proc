@@ -19,7 +19,7 @@ Describe Models utilized here
 Describe methods used (specifically acquisition functions + others) here
 
 # Results
-Describe results + observations here
+![Single Random Scenario Comparisons]([http://url/to/img.png](https://github.com/apatankar22/hier-neural-proc/blob/main/assets/img/AL_graph.png))
 
 # Miscallenous
 
