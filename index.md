@@ -22,12 +22,13 @@ The Gaussian Processes used in the project were simply used as baselines to prov
 This project was heavily dependent on neural processes, as it was the primary model type that was used. The single-fidelity neural process (SFNP) was used as a baseline to show the difference between the more complex neural processes. The multi-fidelity hierarchical neural process (MFHNP) was used as a reference to this project's goal; however, this project simply builds on top of it. Finally, there were two new models: Mean-MFHNP, and Mean-STD-MFHNP; these two neural process models used two acquisition functions, namely low-level-mean and maximum-mean-standard-deviation for active learning. These two models were the crux of this project, and are the best performing models out of them all. 
 
 The image below shows the single-fidelity neural process graph (left), as well as the multi-fidelity hierarchical neural process graph (right). The graph in the middle corresponds to the multi-fidelity neural process, which is not directly relevant to this project.
-<img src="assets/img/NP_GRAPHS.png" class="img-responsive" alt=""> </div>
+
+<img src="assets/img/NP_GRAPHS.png" class="img-responsive" alt="">
 
 # Methods
 
 # Results
-<img src="assets/img/AL_graph.png" class="img-responsive" alt=""> </div>
+<img src="assets/img/AL_graph.png" class="img-responsive" alt="">
 
 
 # References
