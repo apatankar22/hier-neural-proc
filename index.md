@@ -33,7 +33,13 @@ The image above shows the single-fidelity neural process graph (left), as well a
           - This aquisition function generates a set of predictions for each parameter θ, hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the maximum mean standard deviation by averaging the standard deviations (σ<sub>t,d</sub>) across all time steps in T and all dimensions in D.
 
 # Results
+
+<img src="assets/img/MAE_NLL.png" class="img-responsive" alt="">
+The table above compares the prediction performance for both Gaussian Process (mean aggregation) methods and five MFHNP methods for daily infection forecasting over 100 days, with performance is reported in MAE and NLL. MF-HNP(MEAN-STD) has the best performance with respect to MAE for nested data structure, meaning that using MEAN-STD as an acquisition function for active learning is fairly viable. As expected, both NARGP and SFGP underperform.
+
+
 <img src="assets/img/AL_graph.png" class="img-responsive" alt="">
+The figure above shows the predictions of a randomly selected scenario in the nested dataset. It shows the truth, the SFNP and MFHNP predictions, as well as the MEAN-STD-MFHNP together with four age groups (10, 30, 50, 70). In this experiment, the best neural process is MEAN-STD-MFHNP; while MEAN-STD-MFHNP has the best NLL score, studying its predictions across much more data reveals that the predictions made by the MEAN-STD acquisition function are rather conservative, and tend to fall in a larger band (i.e. larger confidence interval).
 
 
 # References
