@@ -21,11 +21,15 @@ The Gaussian Processes used in the project were simply used as baselines to prov
 ## Neural Processes
 This project was heavily dependent on neural processes, as it was the primary model type that was used. The single-fidelity neural process (SFNP) was used as a baseline to show the difference between the more complex neural processes. The multi-fidelity hierarchical neural process (MFHNP) was used as a reference to this project's goal; however, this project simply builds on top of it. Finally, there were two new models: Mean-MFHNP, and Mean-STD-MFHNP; these two neural process models used two acquisition functions, namely low-level-mean and maximum-mean-standard-deviation for active learning. These two models were the crux of this project, and are the best performing models out of them all. 
 
-The image below shows the single-fidelity neural process graph (left), as well as the multi-fidelity hierarchical neural process graph (right). The graph in the middle corresponds to the multi-fidelity neural process, which is not directly relevant to this project.
-
 <img src="assets/img/NP_GRAPHS.png" class="img-responsive" alt="">
 
+The image above shows the single-fidelity neural process graph (left), as well as the multi-fidelity hierarchical neural process graph (right). The graph in the middle corresponds to the multi-fidelity neural process, which is not directly relevant to this project.
+
 # Methods
+*Acquition Functions
+              * Low Level Mean
+                  * This aquisition function uses the low-level mean of the latent variables in order to infer z<sub>h</sub>. For every parameter \theta, we generate a set of predictions; hence for a given subset of T data with D dimensions in each data point, the mean is computed for a given step (in our application, days) t and feature d. We then calculate the low-level-mean by averaging the mean \mu<sub>t,d</sub>.
+              * Maximum Mean Standard Deviation
 
 # Results
 <img src="assets/img/AL_graph.png" class="img-responsive" alt="">
