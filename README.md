@@ -1,8 +1,6 @@
 
 # Capstone Project (DSC 180B): Active Learning with Neural Processes for Epidemiology Modeling
-[Report](https://drive.google.com/file/d/1Mk2uujYlSpMKpOzAgYlZWoz1AOed6XPl/view) <br>
-[Poster](https://drive.google.com/file/d/1m3Gy5ldjGqiTkYX6XV3meAU44MSHP9dL/view) <br>
-[Website](http://apatankar22.github.io/hier-neural-proc/) <br>
+[Report](https://drive.google.com/file/d/1Mk2uujYlSpMKpOzAgYlZWoz1AOed6XPl/view), [Poster](https://drive.google.com/file/d/1m3Gy5ldjGqiTkYX6XV3meAU44MSHP9dL/view), [Website](http://apatankar22.github.io/hier-neural-proc/) <br>
 Authors: Amogh Patankar <br>
 Mentors: Rose Yu, Yian Ma
 
