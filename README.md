@@ -8,8 +8,8 @@ SIR_GP: Save <code>nargp_data</code> and <code>sfgp_data</code> on the same leve
 SIR_NP: Save <code> mfnp_nested, nested, and nonnested </code> on the same level as <code>src/sir_np/ </code>. 
 
 ## Packages
-Installed packages through pip. To replicate, run <code> pip install -r requirements.txt.
-Alternatively install along as you go, the Gaussian processes don't require all the same packages as the neural processes. </code>
+Installed packages through pip. To replicate, run <code> pip install -r requirements.txt.</code>
+Alternatively install along as you go, the Gaussian processes don't require all the same packages as the neural processes. 
 
 ## How to Run
 For Gaussian Processes, simply change to <code>src/sir_gp</code> and run the two jupyter notebooks.
